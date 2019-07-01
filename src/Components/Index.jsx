@@ -52,6 +52,8 @@ const Index = props => (
                 href="https://github.com/miteshtagadiya"
                 style={{ textDecoration: "none", color: "#7ef0ff" }}
                 target="_blank"
+                aria-label="Github"
+                rel="noopener noreferrer"
               >
                 <Icon type="github" />
               </a>
@@ -61,6 +63,8 @@ const Index = props => (
                 href="https://www.linkedin.com/in/mitesh-tagadiya-140420108/"
                 style={{ textDecoration: "none", color: "#7ef0ff" }}
                 target="_blank"
+                aria-label="LinkedIn"
+                rel="noopener noreferrer"
               >
                 <Icon type="linkedin" />
               </a>
@@ -70,6 +74,8 @@ const Index = props => (
                 href="https://stackoverflow.com/users/6880229/mitesh7172"
                 style={{ textDecoration: "none", color: "#7ef0ff" }}
                 target="_blank"
+                aria-label="StackOverflow"
+                rel="noopener noreferrer"
               >
                 <FontAwesomeIcon
                   icon={["fab", "stack-overflow"]}
@@ -82,6 +88,8 @@ const Index = props => (
                 href="https://www.linkedin.com/in/mitesh-tagadiya-140420108/"
                 style={{ textDecoration: "none", color: "#7ef0ff" }}
                 target="_blank"
+                aria-label="Resume"
+                rel="noopener noreferrer"
               >
                 <Icon type="link" />
               </a>
@@ -91,6 +99,8 @@ const Index = props => (
                 href="https://www.hackerrank.com/Mitesh_Tagadiya"
                 style={{ textDecoration: "none", color: "#7ef0ff" }}
                 target="_blank"
+                aria-label="HackerRank"
+                rel="noopener noreferrer"
               >
                 <img
                   src={hackerrank}
