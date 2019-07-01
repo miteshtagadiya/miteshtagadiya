@@ -189,6 +189,7 @@ class ProjectCard extends Component {
                               href={this.props.github}
                               rel="noopener norefrerrer"
                               target="_blank"
+                              aria-label="Github"
                             >
                               <label
                                 className="link-label"
@@ -201,6 +202,7 @@ class ProjectCard extends Component {
                               href={this.props.demo}
                               rel="noopener norefrerrer"
                               target="_blank"
+                              aria-label="Demo"
                             >
                               <label
                                 className="link-label"
