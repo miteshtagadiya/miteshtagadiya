@@ -77,7 +77,7 @@ class SimplePieChart extends React.Component {
             x={cx}
             y={cy}
             dy={8}
-            className="overflowtext recharts-text"
+            className="recharts-text"
             textAnchor="middle"
             fill={fill}
           >
