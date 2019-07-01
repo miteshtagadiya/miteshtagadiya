@@ -96,6 +96,7 @@ const Index = props => (
                   src={hackerrank}
                   height="30"
                   style={{ color: "#7ef0ff", marginBottom: -8 }}
+                  alt="HackerRank"
                 />
               </a>
             </label>
