@@ -7,18 +7,22 @@ class ContactMe extends Component {
     return (
       <div className="container contactme">
         <div className="d-flex" style={{ height: "70vh", margin: "auto" }}>
-          <div className="col-sm-3" />
-          <div className="col-sm-6" style={{ margin: "auto" }}>
+          <div className="col-sm-12 col-xl-3 col-lg-3 col-md-12" />
+          <div
+            className="col-sm-12 col-xl-6 col-lg-6 col-md-12"
+            style={{ margin: "auto" }}
+          >
             <div style={{ textAlign: "center" }}>
               <label style={{ fontSize: 24, marginBottom: 30 }}>
                 Write to me
               </label>
             </div>
-            <form>
+            <form action="mailto:miteshtagadiya@gmail.com" target="_blank" method="GET">
               <div className="form-group">
                 <label for="formGroupExampleInput">Your name</label>
                 <input
                   type="text"
+                  name="Subject"
                   className="form-control"
                   id="formGroupExampleInput"
                 />
@@ -34,6 +38,7 @@ class ContactMe extends Component {
               <div className="form-group">
                 <label for="formGroupExampleInput2">Your message</label>
                 <textarea
+                  name="body"
                   class="form-control"
                   id="exampleFormControlTextarea1"
                   rows="3"
@@ -41,9 +46,12 @@ class ContactMe extends Component {
               </div>
               <div style={{ textAlign: "center", marginTop: 50 }}>
                 <button
-                  type="button"
+                  type="submit"
                   style={{ fontSize: 20, color: "#7ef0ff" }}
                   class="btn btn-outline-primary"
+                  onClick={() => setTimeout(() => {
+                    window.location.href = "https://miteshtagadiya.js.org"
+                  }, 2000)}
                 >
                   Send
                   <FontAwesomeIcon
@@ -58,7 +66,7 @@ class ContactMe extends Component {
               </div>
             </form>
           </div>
-          <div className="col-sm-3" />
+          <div className="col-sm-12 col-xl-3 col-lg-3 col-md-12" />
         </div>
       </div>
     );
