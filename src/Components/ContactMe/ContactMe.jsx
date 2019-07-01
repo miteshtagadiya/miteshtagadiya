@@ -17,9 +17,13 @@ class ContactMe extends Component {
                 Write to me
               </label>
             </div>
-            <form action="mailto:miteshtagadiya@gmail.com" target="_blank" method="GET">
+            <form
+              action="mailto:miteshtagadiya@gmail.com"
+              target="_blank"
+              method="GET"
+            >
               <div className="form-group">
-                <label for="formGroupExampleInput">Your name</label>
+                <label>Your name</label>
                 <input
                   type="text"
                   name="Subject"
@@ -28,7 +32,7 @@ class ContactMe extends Component {
                 />
               </div>
               <div className="form-group">
-                <label for="formGroupExampleInput2">Your email</label>
+                <label>Your email</label>
                 <input
                   type="text"
                   className="form-control"
@@ -36,10 +40,10 @@ class ContactMe extends Component {
                 />
               </div>
               <div className="form-group">
-                <label for="formGroupExampleInput2">Your message</label>
+                <label>Your message</label>
                 <textarea
                   name="body"
-                  class="form-control"
+                  className="form-control"
                   id="exampleFormControlTextarea1"
                   rows="3"
                 />
@@ -48,10 +52,7 @@ class ContactMe extends Component {
                 <button
                   type="submit"
                   style={{ fontSize: 20, color: "#7ef0ff" }}
-                  class="btn btn-outline-primary"
-                  onClick={() => setTimeout(() => {
-                    window.location.href = "https://miteshtagadiya.js.org"
-                  }, 2000)}
+                  className="btn btn-outline-primary"
                 >
                   Send
                   <FontAwesomeIcon
