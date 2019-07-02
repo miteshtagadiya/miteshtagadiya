@@ -1,4 +1,3 @@
-/* eslint-disable */
 import * as React from "react";
 import {
   PieChart,
@@ -7,7 +6,7 @@ import {
   Sector,
   Legend,
   Text,
-  ResponsiveContainer
+  ResponsiveContainer,
 } from "recharts";
 import { Tooltip } from "antd";
 import "./SimplePieChart.sass";
@@ -17,7 +16,7 @@ class SimplePieChart extends React.Component {
     super(props);
     this.state = {
       activeIndex: 0,
-      width: window.innerWidth
+      width: window.innerWidth,
     };
     this.onPieEnter = this.onPieEnter.bind(this);
     this.updateDimensions = this.updateDimensions.bind(this);
@@ -25,7 +24,7 @@ class SimplePieChart extends React.Component {
 
   componentDidMount() {
     this.setState({
-      activeIndex: 0
+      activeIndex: 0,
     });
     window.addEventListener("resize", this.updateDimensions);
   }
@@ -40,7 +39,7 @@ class SimplePieChart extends React.Component {
 
   updateDimensions() {
     this.setState({
-      width: window.innerWidth
+      width: window.innerWidth,
     });
   }
 
@@ -57,7 +56,6 @@ class SimplePieChart extends React.Component {
       fill,
       payload,
       percent,
-      value
     } = props;
     const sin = Math.sin(-RADIAN * midAngle);
     const cos = Math.cos(-RADIAN * midAngle);
@@ -84,10 +82,6 @@ class SimplePieChart extends React.Component {
             {payload.name.length > 30
               ? payload.name.slice(0, 30) + "..."
               : payload.name}
-            {/* {`${prettifyNumber(value, value)} ${
-            this.props.labelname ? this.props.labelname : null
-          }`}
-          {`(${(percent * 100).toFixed(2)}%)`} */}
           </Text>
         </Tooltip>
         {this.state.width <= 425 ? (
@@ -156,51 +150,15 @@ class SimplePieChart extends React.Component {
 
   getInitialState() {
     return {
-      activeIndex: 0
+      activeIndex: 0,
     };
   }
 
   onPieEnter(data, index) {
     this.setState({
-      activeIndex: index
+      activeIndex: index,
     });
   }
-
-  renderLegend = props => {
-    const { payload } = props;
-    //entry.color
-    return (
-      <div>
-        <div className="row" style={{ justifyContent: "center" }}>
-          {payload.map((entry, index) => (
-            <p
-              key={`item-${index}`}
-              onClick={
-                this.props.onplot === true
-                  ? e => {
-                      entry.value.length > 0
-                        ? this.props.onPlotClick(entry.value)
-                        : "";
-                    }
-                  : null
-              }
-              className="overflowtext"
-            >
-              <Tooltip placement="bottomLeft" title={entry.value}>
-                <Icon
-                  icon="square"
-                  className="f-s-12 m-r-3 m-l-5"
-                  style={{ color: entry.color }}
-                />
-
-                {entry.value}
-              </Tooltip>
-            </p>
-          ))}
-        </div>
-      </div>
-    );
-  };
 
   COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
   render() {
@@ -209,10 +167,13 @@ class SimplePieChart extends React.Component {
       : [
           { name: "Frontend", value: 50 },
           { name: "Backend", value: 50 },
-          { name: "Programming Langaages & Others", value: 50 }
+          { name: "Programming Langaages & Others", value: 50 },
         ];
     return (
-      <div className="container-piechart">
+      <div
+        className="container-piechart"
+        style={{ width: "100%", height: 375, boxSizing: "border-box" }}
+      >
         <ResponsiveContainer width="99%">
           <PieChart
             className="pie-chart"
@@ -239,11 +200,7 @@ class SimplePieChart extends React.Component {
               }
               fill="#8884d8"
               onMouseEnter={this.onPieEnter}
-              onClick={
-                this.props.onplot === true
-                  ? e => this.props.onPlotClick(e.name)
-                  : null
-              }
+              onClick={e => this.props.onPlotClick(e.name)}
             >
               {data.map((entry, index) => (
                 <Cell
@@ -252,17 +209,8 @@ class SimplePieChart extends React.Component {
                 />
               ))}
             </Pie>
-            {this.props.customLabel === true ? (
-              this.state.width >= 321 ? (
-                <Legend
-                  height={36}
-                  margin={{ top: 10 }}
-                  content={this.renderLegend}
-                />
-              ) : null
-            ) : this.state.width >= 321 ? (
-              <Legend height={36} margin={{ top: 10 }} />
-            ) : null}
+
+            <Legend height={36} margin={{ top: 10 }} />
           </PieChart>
         </ResponsiveContainer>
       </div>
