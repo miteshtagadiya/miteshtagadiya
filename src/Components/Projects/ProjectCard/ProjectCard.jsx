@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, { Component } from "react";
 import { Modal } from "antd";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -187,7 +186,7 @@ class ProjectCard extends Component {
                           <React.Fragment>
                             <a
                               href={this.props.github}
-                              rel="noopener norefrerrer"
+                              rel="noopener noreferrer"
                               target="_blank"
                               aria-label="Github"
                             >
@@ -200,7 +199,7 @@ class ProjectCard extends Component {
                             </a>
                             <a
                               href={this.props.demo}
-                              rel="noopener norefrerrer"
+                              rel="noopener noreferrer"
                               target="_blank"
                               aria-label="Demo"
                             >

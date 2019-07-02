@@ -37,7 +37,7 @@ class Skills extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      chart: "Frontend"
+      chart: "Frontend",
     };
   }
 
@@ -114,7 +114,7 @@ class Skills extends Component {
             <SimplePieChart
               onPlotClick={data => {
                 this.setState({
-                  chart: data
+                  chart: data,
                 });
               }}
               onplot={true}
@@ -133,49 +133,6 @@ class Skills extends Component {
             </div>
           </div>
         </div>
-        {/* <div>
-          <label>Java</label>
-          <label>c</label>
-          <label>C++</label>
-          <label>Linux</label>
-          <label>DBMS</label>
-
-          <label>Frontend</label>
-          <label>JSX</label>
-          <label>HTML</label>
-          <label>Javascript</label>
-          <label>ES6</label>
-          <label>CSS (sass)</label>
-          <label>Bootstrap</label>
-          <label>lodash</label>
-          <label>Ant Designs</label>
-          <label>ReactJS</label>
-          <label>Redux</label>
-          <label>Recharts</label>
-          <label>Echarts</label>
-          <label>React Google Charts</label>
-          <label>BizCharts</label>
-          <label>MomentJs</label>
-        </div>
-        <div>
-          <label>Backend</label>
-          <label>PHP</label>
-          <label>Java</label>
-        </div>
-        <div>
-          <label>Tools</label>
-          <label>Notepad++</label>
-          <label>Bracket</label>
-          <label>VSCode</label>
-          <label>Intellij Idea</label>
-          <label>Postman</label>
-
-          <label>Github</label>
-          <label>GitLab</label>
-
-          <label>Slack</label>
-          <label>Discord</label>
-        </div> */}
       </div>
     );
   }
