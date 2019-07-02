@@ -5,8 +5,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 class ContactMe extends Component {
   render() {
     return (
-      <div className="container contactme">
-        <div className="d-flex" style={{ height: "70vh", margin: "auto" }}>
+      <div className="container-fluid contactme">
+        <div
+          className="row"
+          style={{ margin: "auto", marginTop: 50, marginBottom: 50 }}
+        >
           <div className="col-sm-12 col-xl-3 col-lg-3 col-md-12" />
           <div
             className="col-sm-12 col-xl-6 col-lg-6 col-md-12"
@@ -17,16 +20,12 @@ class ContactMe extends Component {
                 Write to me
               </label>
             </div>
-            <form
-              action="mailto:miteshtagadiya@gmail.com"
-              target="_blank"
-              method="GET"
-            >
+            <form action="https://formspree.io/miteshtagadiya@gmail.com" method="POST" >
               <div className="form-group">
                 <label>Your name</label>
                 <input
                   type="text"
-                  name="Subject"
+                  name="name"
                   className="form-control"
                   id="formGroupExampleInput"
                 />
@@ -35,6 +34,7 @@ class ContactMe extends Component {
                 <label>Your email</label>
                 <input
                   type="text"
+                  name="_replyto"
                   className="form-control"
                   id="formGroupExampleInput2"
                 />
@@ -42,7 +42,7 @@ class ContactMe extends Component {
               <div className="form-group">
                 <label>Your message</label>
                 <textarea
-                  name="body"
+                  name="message"
                   className="form-control"
                   id="exampleFormControlTextarea1"
                   rows="3"
