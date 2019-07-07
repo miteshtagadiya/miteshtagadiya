@@ -12,7 +12,7 @@ import java from "../../assets/java.svg";
 import php from "../../assets/php.svg";
 import mysql from "../../assets/mysql-icon.svg";
 import postgresql from "../../assets/postgresql.svg";
-
+// import ParticleComponent from "../ParticleComponent";
 import brackets from "../../assets/brackets.png";
 import c from "../../assets/c.svg";
 import cpp from "../../assets/cpp.svg";
@@ -81,7 +81,6 @@ class Skills extends Component {
             <SkillCard img={dbms} label={"DMBS"} />
             <SkillCard img={linux} label={"Linux"} />
             <SkillCard img={postman} label={"Postman"} />
-            <SkillCard img={slack} label={"Slack"} />
             <SkillCard img={visualstudio} label={"VSCode"} />
             <SkillCard img={brackets} label={"Brackets"} />
             <SkillCard img={npp} label={"Notepad++"} />
@@ -109,6 +108,7 @@ class Skills extends Component {
   render() {
     return (
       <div className="container-fluid">
+        {/* <ParticleComponent /> */}
         <div className="row">
           <div className="col-sm-5">
             <SimplePieChart
@@ -125,7 +125,10 @@ class Skills extends Component {
             <div className="row">
               <div className="card" style={{ background: "transparent" }}>
                 <div style={{ marginTop: 50 }}>
-                  <div className="row" style={{ margin: "auto" }}>
+                  <div
+                    className="row"
+                    style={{ margin: "auto", justifyContent: "center" }}
+                  >
                     {this.renderCards(this.state.chart)}
                   </div>
                 </div>
