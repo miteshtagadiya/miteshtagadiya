@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {
   VerticalTimeline,
-  VerticalTimelineElement
+  VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,7 +11,7 @@ class WorkExperience extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      chart: "Frontend"
+      chart: "Frontend",
     };
   }
 
@@ -53,7 +53,7 @@ class WorkExperience extends Component {
                   fontSize: 20,
                   color: "#7ef0ff",
                   marginRight: 15,
-                  marginTop: 5
+                  marginTop: 5,
                 }}
               />
               <label>
@@ -78,9 +78,10 @@ class WorkExperience extends Component {
             <label style={{ fontSize: 16 }}>Surat, India</label>
             <p>
               I have completed my summer internship at Cousins Infotech as a
-              part of my masters program. Initially at Infosys, I was assigned
-              to a client's project to create a hybrid mobile application. I was
-              responsible for mobile app development using Ionic framework.
+              part of my masters program. Initially at Cousins Infotech, I was
+              assigned to a client's project to create a hybrid mobile
+              application. I was responsible for mobile app development using
+              Ionic framework.
             </p>
             <div style={{ display: "flex", marginTop: 20 }}>
               <FontAwesomeIcon
@@ -89,7 +90,7 @@ class WorkExperience extends Component {
                   fontSize: 20,
                   color: "#7ef0ff",
                   marginRight: 15,
-                  marginTop: 0
+                  marginTop: 0,
                 }}
               />
               <label>Ionic, AngularJs, CSS</label>
@@ -127,7 +128,7 @@ class WorkExperience extends Component {
                   fontSize: 20,
                   color: "#7ef0ff",
                   marginRight: 15,
-                  marginTop: 0
+                  marginTop: 0,
                 }}
               />
               <label>PHP, MySql, BootStrap, HTML5, CSS3, JavaScript</label>
