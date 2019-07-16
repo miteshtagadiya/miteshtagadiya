@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/global.sass";
 import { Icon } from "antd";
-import Avatar from "../assets/Avatar2.svg";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Avatar from "../assets/profile.jpg";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
 import Home from "./Home/Home";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -13,6 +13,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import WorkExperience from "./WorkExperience/WorkExperience";
 import Projects from "./Projects/Projects";
 import hackerrank from "../assets/hackerrank-brands.svg";
+import battle from "../assets/battle1.png";
 import windowSize from "react-window-size";
 import ContactMe from "./ContactMe/ContactMe";
 library.add(fas, brands);
@@ -37,7 +38,16 @@ const Index = props => (
           }
         >
           <div style={{ marginTop: 50 }}>
-            <img src={Avatar} alt="Mitesh Tagadiya" />
+            <img
+              src={Avatar}
+              className="img-thumbnail"
+              style={{
+                borderRadius: "50%",
+                height: 250,
+                width: 230,
+              }}
+              alt="Mitesh Tagadiya"
+            />
           </div>
           <label style={{ fontSize: 52, marginTop: 50 }}>
             Mitesh Tagadiya{" "}
@@ -60,6 +70,17 @@ const Index = props => (
             </label>
             <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
               <a
+                href="https://gitlab.com/miteshtagadiya"
+                style={{ textDecoration: "none", color: "#7ef0ff" }}
+                target="_blank"
+                aria-label="Gitlab"
+                rel="noopener noreferrer"
+              >
+                <Icon type="gitlab" />
+              </a>
+            </label>
+            <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
+              <a
                 href="https://www.linkedin.com/in/mitesh-tagadiya-140420108/"
                 style={{ textDecoration: "none", color: "#7ef0ff" }}
                 target="_blank"
@@ -67,6 +88,17 @@ const Index = props => (
                 rel="noopener noreferrer"
               >
                 <Icon type="linkedin" />
+              </a>
+            </label>
+            <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
+              <a
+                href="https://drive.google.com/file/d/1qFXjZqTDow29I2qrH1PfacNd77W9GcXa/view?usp=sharing"
+                style={{ textDecoration: "none", color: "#7ef0ff" }}
+                target="_blank"
+                aria-label="Resume"
+                rel="noopener noreferrer"
+              >
+                <Icon type="link" />
               </a>
             </label>
             <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
@@ -83,17 +115,7 @@ const Index = props => (
                 />
               </a>
             </label>
-            <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
-              <a
-                href="https://www.linkedin.com/in/mitesh-tagadiya-140420108/"
-                style={{ textDecoration: "none", color: "#7ef0ff" }}
-                target="_blank"
-                aria-label="Resume"
-                rel="noopener noreferrer"
-              >
-                <Icon type="link" />
-              </a>
-            </label>
+
             <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
               <a
                 href="https://www.hackerrank.com/Mitesh_Tagadiya"
@@ -110,14 +132,32 @@ const Index = props => (
                 />
               </a>
             </label>
+
+            <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
+              <a
+                href="https://cssbattle.dev/player/miteshtagadiya"
+                style={{ textDecoration: "none", color: "#7ef0ff" }}
+                target="_blank"
+                aria-label="CSSBattle"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={battle}
+                  height="30"
+                  style={{ color: "#7ef0ff", marginBottom: -8 }}
+                  alt="CSSBattle"
+                />
+              </a>
+            </label>
           </div>
         </div>
+
         <div
           className="col-sm-12 col-lg-12 col-md-12 col-xl-9"
           style={{ background: "#00003f" }}
         >
           <header className="App-header">
-            <BrowserRouter>
+            <HashRouter>
               <Navbar />
               <Switch>
                 <Route exact path="/" component={Home} />
@@ -126,8 +166,20 @@ const Index = props => (
                 <Route path="/projects" component={Projects} />
                 <Route path="/contactme" component={ContactMe} />
               </Switch>
-            </BrowserRouter>
+            </HashRouter>
           </header>
+        </div>
+        <div
+          style={
+            props.windowWidth > 1200
+              ? { position: "absolute", right: 15, marginTop: 10, bottom: 10 }
+              : { display: "none" }
+          }
+        >
+          <label>
+            Designed and Developed by
+            <span style={{ fontWeight: "bold" }}> Mitesh Tagadiya</span>
+          </label>
         </div>
       </div>
     </div>
