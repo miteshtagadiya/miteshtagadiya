@@ -21,7 +21,7 @@
     "react-window-size": "^1.2.2",
     "recharts": "^1.6.1"
   },
-  "homepage" : "https://miteshtagadiya.js.org",
+  "homepage": "https://miteshtagadiya.js.org",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -43,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
