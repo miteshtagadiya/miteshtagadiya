@@ -1,16 +1,18 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ParticleComponent from "../ParticleComponent";
 
 class Home extends Component {
   render() {
     return (
       <div className="container-fluid">
+        <ParticleComponent />
         <div className="row">
           <div
             className="col-sm-12 col-md-12 col-xl-5 col-lg-5"
             style={{ margin: "auto" }}
           >
-            <label style={{ fontSize: 22, marginTop: 20 }}>
+            <label style={{ fontSize: 18, marginTop: 20 }}>
               I specialize in front development using React, Redux, CSS
               Frameworks. I always look for optimizing the code and enhancing
               the performance of the application. I am self motivated, good team
@@ -34,23 +36,23 @@ class Home extends Component {
                 }}
               >
                 <div style={{ textAlign: "center" }}>
-                  <label style={{ fontSize: 32 }}>DAIICT</label>
+                  <label style={{ fontSize: 28 }}>DAIICT</label>
                 </div>
-                <label style={{ fontSize: 22 }}>
+                <label style={{ fontSize: 18 }}>
                   <FontAwesomeIcon
                     icon={["fas", "graduation-cap"]}
                     style={{ color: "#7ef0ff", marginRight: 15 }}
                   />
                   Master of Science in Information Technology
                 </label>
-                <label style={{ fontSize: 22 }}>
+                <label style={{ fontSize: 18 }}>
                   <FontAwesomeIcon
                     icon={["fas", "calendar-alt"]}
                     style={{ color: "#7ef0ff", marginRight: 25 }}
                   />
                   2016 - 2018
                 </label>
-                <label style={{ fontSize: 22 }}>
+                <label style={{ fontSize: 18 }}>
                   <FontAwesomeIcon
                     icon={["fas", "trophy"]}
                     style={{ color: "#7ef0ff", marginRight: 20 }}
@@ -73,23 +75,23 @@ class Home extends Component {
                 }}
               >
                 <div style={{ textAlign: "center" }}>
-                  <label style={{ fontSize: 32 }}>VNSGU</label>
+                  <label style={{ fontSize: 28 }}>VNSGU</label>
                 </div>
-                <label style={{ fontSize: 22 }}>
+                <label style={{ fontSize: 18 }}>
                   <FontAwesomeIcon
                     icon={["fas", "graduation-cap"]}
                     style={{ color: "#7ef0ff", marginRight: 15 }}
                   />
                   Bachelor of Science in Information Technology
                 </label>
-                <label style={{ fontSize: 22 }}>
+                <label style={{ fontSize: 18 }}>
                   <FontAwesomeIcon
                     icon={["fas", "calendar-alt"]}
                     style={{ color: "#7ef0ff", marginRight: 25 }}
                   />
                   2013 - 2016
                 </label>
-                <label style={{ fontSize: 22 }}>
+                <label style={{ fontSize: 18 }}>
                   <FontAwesomeIcon
                     icon={["fas", "trophy"]}
                     style={{ color: "#7ef0ff", marginRight: 20 }}

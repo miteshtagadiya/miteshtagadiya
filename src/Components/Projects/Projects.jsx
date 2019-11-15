@@ -41,6 +41,7 @@ import Qr1 from "../../assets/Qr/QR1.png";
 import ReactJson from "react-json-view";
 import "./Projects.sass";
 import ProjectCard from "./ProjectCard/ProjectCard";
+import ParticleComponent from "../ParticleComponent";
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -519,6 +520,7 @@ class Projects extends Component {
         className="container-fluid Projects"
         style={{ marginTop: 70, height: "75vh", overflowY: "scroll" }}
       >
+        <ParticleComponent />
         <div className="row" style={{ justifyContent: "space-around" }}>
           <ProjectCard
             img={MyProfile}

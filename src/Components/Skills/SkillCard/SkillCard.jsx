@@ -11,7 +11,7 @@ const SkillCard = props => {
       }}
     >
       <img src={props.img} width="70" height="70" alt={props.label} />
-      <label style={{ fontSize: 22, marginTop: 10 }}>{props.label}</label>
+      <label style={{ fontSize: 18, marginTop: 10 }}>{props.label}</label>
     </div>
   );
 };
