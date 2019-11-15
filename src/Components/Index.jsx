@@ -16,12 +16,17 @@ import hackerrank from "../assets/hackerrank-brands.svg";
 import battle from "../assets/battle1.png";
 import windowSize from "react-window-size";
 import ContactMe from "./ContactMe/ContactMe";
+import Typist from "react-typist";
+import ParticleComponent from "./ParticleComponent";
 library.add(fas, brands);
 
 const Index = props => (
   <div className="App">
-    <div className="container-fluid">
-      <div className="row" style={{ background: "#00003f", height: "100vh" }}>
+    <div className="container-fluid overflow-particle">
+      <div
+        className="row"
+        style={{ background: "#00003f", height: "100vh", overflow: "auto" }}
+      >
         <div
           className="col-sm-12 col-md-12 col-lg-12 col-xl-3"
           style={
@@ -38,6 +43,8 @@ const Index = props => (
           }
         >
           <div style={{ marginTop: 50 }}>
+            <ParticleComponent />
+
             <img
               src={Avatar}
               className="img-thumbnail"
@@ -49,106 +56,112 @@ const Index = props => (
               alt="Mitesh Tagadiya"
             />
           </div>
-          <label style={{ fontSize: 52, marginTop: 50 }}>
-            Mitesh Tagadiya{" "}
-          </label>
-          <label style={{ fontSize: 22, marginTop: 50 }}>
-            Skilled in Full Stack Software Development, ReactJs, PHP, JAVA,
-            Redux, MySQL
-          </label>
-          <div style={{ marginTop: 50 }}>
-            <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
-              <a
-                href="https://github.com/miteshtagadiya"
-                style={{ textDecoration: "none", color: "#7ef0ff" }}
-                target="_blank"
-                aria-label="Github"
-                rel="noopener noreferrer"
-              >
-                <Icon type="github" />
-              </a>
-            </label>
-            <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
-              <a
-                href="https://gitlab.com/miteshtagadiya"
-                style={{ textDecoration: "none", color: "#7ef0ff" }}
-                target="_blank"
-                aria-label="Gitlab"
-                rel="noopener noreferrer"
-              >
-                <Icon type="gitlab" />
-              </a>
-            </label>
-            <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
-              <a
-                href="https://www.linkedin.com/in/mitesh-tagadiya-140420108/"
-                style={{ textDecoration: "none", color: "#7ef0ff" }}
-                target="_blank"
-                aria-label="LinkedIn"
-                rel="noopener noreferrer"
-              >
-                <Icon type="linkedin" />
-              </a>
-            </label>
-            <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
-              <a
-                href="https://drive.google.com/file/d/1qFXjZqTDow29I2qrH1PfacNd77W9GcXa/view?usp=sharing"
-                style={{ textDecoration: "none", color: "#7ef0ff" }}
-                target="_blank"
-                aria-label="Resume"
-                rel="noopener noreferrer"
-              >
-                <Icon type="link" />
-              </a>
-            </label>
-            <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
-              <a
-                href="https://stackoverflow.com/users/6880229/mitesh7172"
-                style={{ textDecoration: "none", color: "#7ef0ff" }}
-                target="_blank"
-                aria-label="StackOverflow"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={["fab", "stack-overflow"]}
-                  style={{ color: "#7ef0ff", marginBottom: -8 }}
-                />
-              </a>
-            </label>
 
-            <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
-              <a
-                href="https://www.hackerrank.com/Mitesh_Tagadiya"
-                style={{ textDecoration: "none", color: "#7ef0ff" }}
-                target="_blank"
-                aria-label="HackerRank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={hackerrank}
-                  height="30"
-                  style={{ color: "#7ef0ff", marginBottom: -8 }}
-                  alt="HackerRank"
-                />
-              </a>
+          <div>
+            <label style={{ fontSize: 42, marginTop: 50 }}>
+              <Typist cursor={{ show: false }}>Mitesh Tagadiya</Typist>
             </label>
+            <label style={{ fontSize: 18, marginTop: 50 }}>
+              Skilled in Full Stack Software Development, ReactJs, PHP, JAVA,
+              Redux, MySQL
+            </label>
+            <div
+              className="profile-links"
+              style={{ position: "absolute", height: 105, marginLeft: -15 }}
+            >
+              <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
+                <a
+                  href="https://github.com/miteshtagadiya"
+                  style={{ textDecoration: "none", color: "#7ef0ff" }}
+                  target="_blank"
+                  aria-label="Github"
+                  rel="noopener noreferrer"
+                >
+                  <Icon type="github" />
+                </a>
+              </label>
+              <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
+                <a
+                  href="https://gitlab.com/miteshtagadiya"
+                  style={{ textDecoration: "none", color: "#7ef0ff" }}
+                  target="_blank"
+                  aria-label="Gitlab"
+                  rel="noopener noreferrer"
+                >
+                  <Icon type="gitlab" />
+                </a>
+              </label>
+              <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
+                <a
+                  href="https://www.linkedin.com/in/mitesh-tagadiya-140420108/"
+                  style={{ textDecoration: "none", color: "#7ef0ff" }}
+                  target="_blank"
+                  aria-label="LinkedIn"
+                  rel="noopener noreferrer"
+                >
+                  <Icon type="linkedin" />
+                </a>
+              </label>
+              <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
+                <a
+                  href="https://drive.google.com/file/d/1qFXjZqTDow29I2qrH1PfacNd77W9GcXa/view?usp=sharing"
+                  style={{ textDecoration: "none", color: "#7ef0ff" }}
+                  target="_blank"
+                  aria-label="Resume"
+                  rel="noopener noreferrer"
+                >
+                  <Icon type="link" />
+                </a>
+              </label>
+              <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
+                <a
+                  href="https://stackoverflow.com/users/6880229/mitesh7172"
+                  style={{ textDecoration: "none", color: "#7ef0ff" }}
+                  target="_blank"
+                  aria-label="StackOverflow"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon
+                    icon={["fab", "stack-overflow"]}
+                    style={{ color: "#7ef0ff", marginBottom: -8 }}
+                  />
+                </a>
+              </label>
 
-            <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
-              <a
-                href="https://cssbattle.dev/player/miteshtagadiya"
-                style={{ textDecoration: "none", color: "#7ef0ff" }}
-                target="_blank"
-                aria-label="CSSBattle"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={battle}
-                  height="30"
-                  style={{ color: "#7ef0ff", marginBottom: -8 }}
-                  alt="CSSBattle"
-                />
-              </a>
-            </label>
+              <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
+                <a
+                  href="https://www.hackerrank.com/Mitesh_Tagadiya"
+                  style={{ textDecoration: "none", color: "#7ef0ff" }}
+                  target="_blank"
+                  aria-label="HackerRank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={hackerrank}
+                    height="30"
+                    style={{ color: "#7ef0ff", marginBottom: -8 }}
+                    alt="HackerRank"
+                  />
+                </a>
+              </label>
+
+              <label style={{ fontSize: 32, marginLeft: 10, marginRight: 10 }}>
+                <a
+                  href="https://cssbattle.dev/player/miteshtagadiya"
+                  style={{ textDecoration: "none", color: "#7ef0ff" }}
+                  target="_blank"
+                  aria-label="CSSBattle"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={battle}
+                    height="30"
+                    style={{ color: "#7ef0ff", marginBottom: -8 }}
+                    alt="CSSBattle"
+                  />
+                </a>
+              </label>
+            </div>
           </div>
         </div>
 
