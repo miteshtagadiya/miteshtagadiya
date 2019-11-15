@@ -121,7 +121,7 @@ class ProjectCard extends Component {
                       <FontAwesomeIcon
                         icon={["fas", "calendar-alt"]}
                         style={{
-                          fontSize: 20,
+                          fontSize: 18,
                           color: "#7ef0ff",
                           marginRight: 15,
                           marginTop: 3,
@@ -135,7 +135,7 @@ class ProjectCard extends Component {
                       <FontAwesomeIcon
                         icon={["fas", "book"]}
                         style={{
-                          fontSize: 20,
+                          fontSize: 18,
                           color: "#7ef0ff",
                           marginRight: 15,
                           marginTop: 3,
@@ -150,7 +150,7 @@ class ProjectCard extends Component {
                         <FontAwesomeIcon
                           icon={["fas", "user-friends"]}
                           style={{
-                            fontSize: 20,
+                            fontSize: 18,
                             color: "#7ef0ff",
                             marginRight: 15,
                             marginTop: 3,
@@ -165,7 +165,7 @@ class ProjectCard extends Component {
                       <FontAwesomeIcon
                         icon={["fas", "code"]}
                         style={{
-                          fontSize: 20,
+                          fontSize: 18,
                           color: "#7ef0ff",
                           marginRight: 15,
                           marginTop: 3,

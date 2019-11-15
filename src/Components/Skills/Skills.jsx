@@ -12,7 +12,7 @@ import java from "../../assets/java.svg";
 import php from "../../assets/php.svg";
 import mysql from "../../assets/mysql-icon.svg";
 import postgresql from "../../assets/postgresql.svg";
-// import ParticleComponent from "../ParticleComponent";
+import ParticleComponent from "../ParticleComponent";
 import brackets from "../../assets/brackets.png";
 import c from "../../assets/c.svg";
 import cpp from "../../assets/cpp.svg";
@@ -69,7 +69,7 @@ class Skills extends Component {
           </React.Fragment>
         );
 
-      case "Programming Langaages & Others":
+      case "Programming Languages & Others":
         return (
           <React.Fragment>
             <SkillCard img={slack} label={"Slack"} />
@@ -108,7 +108,7 @@ class Skills extends Component {
   render() {
     return (
       <div className="container-fluid">
-        {/* <ParticleComponent /> */}
+        <ParticleComponent />
         <div className="row">
           <div className="col-sm-5">
             <SimplePieChart

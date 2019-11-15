@@ -6,6 +6,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./WorkExperience.sass";
+import ParticleComponent from "../ParticleComponent";
 
 class WorkExperience extends Component {
   constructor(props) {
@@ -21,6 +22,7 @@ class WorkExperience extends Component {
         className="workexperience"
         style={{ marginTop: 70, height: "75vh", overflowY: "scroll" }}
       >
+        <ParticleComponent />
         <VerticalTimeline style={{ color: "#7ef0ff" }}>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -32,8 +34,8 @@ class WorkExperience extends Component {
               />
             }
           >
-            <label style={{ fontSize: 28 }}>Dataone Innovation Labs</label>
-            <label style={{ fontSize: 22 }}>Fullstack Software Developer</label>
+            <label style={{ fontSize: 22 }}>Dataone Innovation Labs</label>
+            <label style={{ fontSize: 18 }}>Fullstack Software Developer</label>
             <label style={{ fontSize: 16 }}>Ahmedabad, India</label>
 
             <p>
@@ -72,8 +74,8 @@ class WorkExperience extends Component {
               />
             }
           >
-            <label style={{ fontSize: 28 }}>Cousins Infotech</label>
-            <label style={{ fontSize: 22 }}>Software Developer Intern</label>
+            <label style={{ fontSize: 22 }}>Cousins Infotech</label>
+            <label style={{ fontSize: 18 }}>Software Developer Intern</label>
             <br />
             <label style={{ fontSize: 16 }}>Surat, India</label>
             <p>
@@ -106,8 +108,8 @@ class WorkExperience extends Component {
               />
             }
           >
-            <label style={{ fontSize: 28 }}>Cousins Infotech</label>
-            <label style={{ fontSize: 22 }}>Software Developer Intern</label>
+            <label style={{ fontSize: 22 }}>Cousins Infotech</label>
+            <label style={{ fontSize: 18 }}>Software Developer Intern</label>
             <br />
             <label style={{ fontSize: 16 }}>Surat, India</label>
             <p>

@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import "./ContactMe.sass";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ParticleComponent from "../ParticleComponent";
 
 class ContactMe extends Component {
   render() {
     return (
       <div className="container-fluid contactme">
+        <ParticleComponent />
         <div
           className="row"
           style={{ margin: "auto", marginTop: 50, marginBottom: 50 }}
@@ -20,7 +22,10 @@ class ContactMe extends Component {
                 Write to me
               </label>
             </div>
-            <form action="https://formspree.io/miteshtagadiya@gmail.com" method="POST" >
+            <form
+              action="https://formspree.io/miteshtagadiya@gmail.com"
+              method="POST"
+            >
               <div className="form-group">
                 <label>Your name</label>
                 <input
