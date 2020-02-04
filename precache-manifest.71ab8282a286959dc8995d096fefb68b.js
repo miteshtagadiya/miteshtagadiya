@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "396bd319637ddd0c805c27a087e936a4",
+    "revision": "1608a2f45556d773c1a6eb2715085acf",
     "url": "/index.html"
   },
   {
-    "revision": "31fa06345d6878d61de9",
+    "revision": "1de5d1767aba7c370cbc",
     "url": "/static/css/2.43f5c193.chunk.css"
   },
   {
-    "revision": "76fa701799b274487e98",
-    "url": "/static/css/main.3a8c0a99.chunk.css"
+    "revision": "672073fe3856e8638ae6",
+    "url": "/static/css/main.6a19a47c.chunk.css"
   },
   {
-    "revision": "31fa06345d6878d61de9",
-    "url": "/static/js/2.75713795.chunk.js"
+    "revision": "1de5d1767aba7c370cbc",
+    "url": "/static/js/2.e495994f.chunk.js"
   },
   {
-    "revision": "76fa701799b274487e98",
-    "url": "/static/js/main.26488954.chunk.js"
+    "revision": "672073fe3856e8638ae6",
+    "url": "/static/js/main.2ac48df0.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -220,6 +220,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mysql-icon.78d3a4b1.svg"
   },
   {
+    "revision": "2ef039f70262dcef634cc410b30fdc44",
+    "url": "/static/media/nextjs.2ef039f7.png"
+  },
+  {
     "revision": "07a3c6f06d4652d6e7124156509097ac",
     "url": "/static/media/npm1.07a3c6f0.jpg"
   },
@@ -252,12 +256,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/redux.85772647.svg"
   },
   {
+    "revision": "40e4d989832a0162b3554f02755943f1",
+    "url": "/static/media/reduxobservable.40e4d989.png"
+  },
+  {
     "revision": "c13c393f310c02a422138de8d2ba4f31",
     "url": "/static/media/sass.c13c393f.png"
   },
   {
     "revision": "f7fff17c7d6e2c88b9064e1b2530bd7e",
     "url": "/static/media/slack-icon.f7fff17c.svg"
+  },
+  {
+    "revision": "26cc95f255ccb936d154b43614f61602",
+    "url": "/static/media/ts.26cc95f2.png"
   },
   {
     "revision": "1b40b61f4a3b3cb37338cef3684ddd7f",

@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a8c0a99.chunk.css",
-    "main.js": "/static/js/main.26488954.chunk.js",
+    "main.css": "/static/css/main.6a19a47c.chunk.css",
+    "main.js": "/static/js/main.2ac48df0.chunk.js",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "static/css/2.43f5c193.chunk.css": "/static/css/2.43f5c193.chunk.css",
-    "static/js/2.75713795.chunk.js": "/static/js/2.75713795.chunk.js",
+    "static/js/2.e495994f.chunk.js": "/static/js/2.e495994f.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.828b2944e34584c4fda2f35d1191a81b.js": "/precache-manifest.828b2944e34584c4fda2f35d1191a81b.js",
+    "precache-manifest.71ab8282a286959dc8995d096fefb68b.js": "/precache-manifest.71ab8282a286959dc8995d096fefb68b.js",
     "service-worker.js": "/service-worker.js",
     "static/media/AutoAttendance1.png": "/static/media/AutoAttendance1.d83e359d.png",
     "static/media/AutoAttendance2.png": "/static/media/AutoAttendance2.22fc1fae.png",
@@ -57,6 +57,7 @@
     "static/media/linux-icon.svg": "/static/media/linux-icon.9704024a.svg",
     "static/media/myprofile.png": "/static/media/myprofile.bdd030be.png",
     "static/media/mysql-icon.svg": "/static/media/mysql-icon.78d3a4b1.svg",
+    "static/media/nextjs.png": "/static/media/nextjs.2ef039f7.png",
     "static/media/npm1.jpg": "/static/media/npm1.07a3c6f0.jpg",
     "static/media/npp.png": "/static/media/npp.c4990ab3.png",
     "static/media/php.svg": "/static/media/php.fa78b345.svg",
@@ -65,8 +66,10 @@
     "static/media/profile.jpg": "/static/media/profile.a0cc233d.jpg",
     "static/media/react.png": "/static/media/react.8d859602.png",
     "static/media/redux.svg": "/static/media/redux.85772647.svg",
+    "static/media/reduxobservable.png": "/static/media/reduxobservable.40e4d989.png",
     "static/media/sass.png": "/static/media/sass.c13c393f.png",
     "static/media/slack-icon.svg": "/static/media/slack-icon.f7fff17c.svg",
+    "static/media/ts.png": "/static/media/ts.26cc95f2.png",
     "static/media/validate.png": "/static/media/validate.1b40b61f.png",
     "static/media/visualstudio.svg": "/static/media/visualstudio.7b9faaf0.svg"
   }
