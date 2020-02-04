@@ -5,6 +5,8 @@ const SkillCard = props => {
     <div
       className="card"
       style={{
+        display: "flex",
+        alignItems: "center",
         textAlign: "center",
         background: "transparent",
         margin: 25

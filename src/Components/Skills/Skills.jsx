@@ -23,12 +23,13 @@ import discord from "../../assets/discord.svg";
 import postman from "../../assets/postman.svg";
 // import github from "../../assets/github.png";
 import gitlab from "../../assets/gitlab-icon.svg";
-
+import reduxobservable from "../../assets/reduxobservable.png";
 import linux from "../../assets/linux-icon.svg";
 import slack from "../../assets/slack-icon.svg";
 import visualstudio from "../../assets/visualstudio.svg";
 import idea from "../../assets/intellij-idea.svg";
-
+import ts from "../../assets/ts.png";
+import nextjs from "../../assets/nextjs.png";
 import Redux from "../../assets/redux.svg";
 import SkillCard from "./SkillCard/SkillCard";
 import SimplePieChart from "../Charts/SimplePieChart/SimplePieChart";
@@ -37,7 +38,7 @@ class Skills extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      chart: "Frontend",
+      chart: "Frontend"
     };
   }
 
@@ -51,9 +52,12 @@ class Skills extends Component {
             <SkillCard img={sass} label={"SASS"} />
             <SkillCard img={bootstrap} label={"Bootstrap"} />
             <SkillCard img={javascript} label={"JavaScript"} />
+            <SkillCard img={ts} label={"TypeScript"} />
+            <SkillCard img={nextjs} label={"NextJS"} />
             <SkillCard img={es6} label={"ES6"} />
             <SkillCard img={reactJs} label={"ReactJs"} />
             <SkillCard img={Redux} label={"Redux"} />
+            <SkillCard img={reduxobservable} label={"Redux Observable"} />
             <SkillCard img={npm} label={"NPM"} />
             <SkillCard img={ionic} label={"Ionic"} />
           </React.Fragment>
@@ -95,9 +99,12 @@ class Skills extends Component {
             <SkillCard img={sass} label={"SASS"} />
             <SkillCard img={bootstrap} label={"Bootstrap"} />
             <SkillCard img={javascript} label={"JavaScript"} />
+            <SkillCard img={ts} label={"TypeScript"} />
+            <SkillCard img={nextjs} label={"NextJS"} />
             <SkillCard img={es6} label={"ES6"} />
             <SkillCard img={reactJs} label={"ReactJs"} />
             <SkillCard img={Redux} label={"Redux"} />
+            <SkillCard img={reduxobservable} label={"Redux\nObservable"} />
             <SkillCard img={npm} label={"NPM"} />
             <SkillCard img={ionic} label={"Ionic"} />
           </React.Fragment>
@@ -114,7 +121,7 @@ class Skills extends Component {
             <SimplePieChart
               onPlotClick={data => {
                 this.setState({
-                  chart: data,
+                  chart: data
                 });
               }}
               onplot={true}

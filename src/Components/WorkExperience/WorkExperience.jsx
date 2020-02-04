@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {
   VerticalTimeline,
-  VerticalTimelineElement,
+  VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,7 +12,7 @@ class WorkExperience extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      chart: "Frontend",
+      chart: "Frontend"
     };
   }
 
@@ -35,7 +35,9 @@ class WorkExperience extends Component {
             }
           >
             <label style={{ fontSize: 22 }}>Dataone Innovation Labs</label>
+            <br />
             <label style={{ fontSize: 18 }}>Fullstack Software Developer</label>
+            <br />
             <label style={{ fontSize: 16 }}>Ahmedabad, India</label>
 
             <p>
@@ -55,12 +57,12 @@ class WorkExperience extends Component {
                   fontSize: 20,
                   color: "#7ef0ff",
                   marginRight: 15,
-                  marginTop: 5,
+                  marginTop: 5
                 }}
               />
               <label>
-                React, Redux, Bootstrap, AntDesigns, Recharts, BizCharts, Google
-                Charts
+                React, Redux, Redux-Observable, MomentJs, Javascript, TypeScript, Bootstrap, AntDesigns, MaterialUI, Recharts, BizCharts, React Google
+                Charts, Next JS, React Intl, React GA.
               </label>
             </div>
           </VerticalTimelineElement>
@@ -75,6 +77,7 @@ class WorkExperience extends Component {
             }
           >
             <label style={{ fontSize: 22 }}>Cousins Infotech</label>
+            <br />
             <label style={{ fontSize: 18 }}>Software Developer Intern</label>
             <br />
             <label style={{ fontSize: 16 }}>Surat, India</label>
@@ -92,7 +95,7 @@ class WorkExperience extends Component {
                   fontSize: 20,
                   color: "#7ef0ff",
                   marginRight: 15,
-                  marginTop: 0,
+                  marginTop: 0
                 }}
               />
               <label>Ionic, AngularJs, CSS</label>
@@ -109,6 +112,7 @@ class WorkExperience extends Component {
             }
           >
             <label style={{ fontSize: 22 }}>Cousins Infotech</label>
+            <br />
             <label style={{ fontSize: 18 }}>Software Developer Intern</label>
             <br />
             <label style={{ fontSize: 16 }}>Surat, India</label>
@@ -130,7 +134,7 @@ class WorkExperience extends Component {
                   fontSize: 20,
                   color: "#7ef0ff",
                   marginRight: 15,
-                  marginTop: 0,
+                  marginTop: 0
                 }}
               />
               <label>PHP, MySql, BootStrap, HTML5, CSS3, JavaScript</label>
