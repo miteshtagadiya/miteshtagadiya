@@ -73,7 +73,7 @@ class Skills extends Component {
           </React.Fragment>
         );
 
-      case "Programming Languages & Others":
+      case "Programming Langaages & Others":
         return (
           <React.Fragment>
             <SkillCard img={slack} label={"Slack"} />
