@@ -17,7 +17,14 @@ import battle from "../assets/battle1.png";
 import windowSize from "react-window-size";
 import ContactMe from "./ContactMe/ContactMe";
 import Typist from "react-typist";
+// import { ButtonMenu, MenuItem, MenuDivider } from "react-rainbow-components";
+// import {
+//   faAlignCenter,
+//   faAlignRight,
+//   faEllipsisV
+// } from "@fortawesome/free-solid-svg-icons";
 import ParticleComponent from "./ParticleComponent";
+import "./index.sass";
 library.add(fas, brands);
 
 const Index = props => (
@@ -34,30 +41,44 @@ const Index = props => (
               ? {
                   borderRight: "1px solid #7ef0ff",
                   background: "#00003f",
-                  textAlign: "center",
+                  textAlign: "center"
                 }
               : {
                   background: "#00003f",
-                  textAlign: "center",
+                  textAlign: "center"
                 }
           }
         >
           <div style={{ marginTop: 50 }}>
             <ParticleComponent />
-
-            <img
-              src={Avatar}
-              className="img-thumbnail"
-              style={{
-                borderRadius: "50%",
-                height: 250,
-                width: 230,
-              }}
-              alt="Mitesh Tagadiya"
-            />
+            {/* <div>
+              <ButtonMenu
+                menuAlignment="right"
+                menuSize="small"
+                label="Menu"
+                icon={<FontAwesomeIcon icon={faEllipsisV} />}
+              >
+                <MenuItem label="Game kit view" />
+              </ButtonMenu>
+              <br />
+            </div> */}
+            <br />
+            <div>
+              <img
+                src={Avatar}
+                className="img-thumbnail"
+                style={{
+                  borderRadius: "50%",
+                  height: 250,
+                  width: 230
+                }}
+                alt="Mitesh Tagadiya"
+              />
+            </div>
           </div>
 
           <div>
+            <br />
             <label style={{ fontSize: 42, marginTop: 50 }}>
               <Typist cursor={{ show: false }}>Mitesh Tagadiya</Typist>
             </label>
@@ -161,6 +182,30 @@ const Index = props => (
                   />
                 </a>
               </label>
+              <div
+                style={
+                  props.windowWidth > 1200
+                    ? {
+                       display: "auto"
+                      }
+                    : { display: "none" }
+                }
+              >
+                <a
+                  href="http://voiceless-jewel.surge.sh/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  aria-label="Github"
+                >
+                  <label
+                    className="link-label-home"
+                    style={{ marginBottom: 10, marginTop: 50 }}
+                  >
+                    GameKit View
+                    <sup style={{ padding: 15 }}>New</sup>
+                  </label>
+                </a>
+              </div>
             </div>
           </div>
         </div>
