@@ -78,6 +78,20 @@ class Navbar extends Component {
             Projects
           </label>
           <label
+            className={this.state.ui === "/fun" ? uiClass + " active" : uiClass}
+            onClick={() => {
+              this.setState({ ui: "/fun" });
+              this.props.history.push("/fun");
+            }}
+          >
+            <FontAwesomeIcon
+              icon={["fas", "briefcase"]}
+              style={{ marginRight: 15 }}
+            />
+            Fun
+            <sup style={{ padding: 10 }}>New</sup>
+          </label>
+          <label
             className={
               this.state.ui === "/contactme" ? uiClass + " active" : uiClass
             }
@@ -142,6 +156,15 @@ class Navbar extends Component {
             }}
           >
             <FontAwesomeIcon icon={["fas", "laptop-code"]} />
+          </label>
+          <label
+            className={this.state.ui === "/fun" ? uiClass + " active" : uiClass}
+            onClick={() => {
+              this.setState({ ui: "/fun" });
+              this.props.history.push("/fun");
+            }}
+          >
+            <FontAwesomeIcon icon={["fas", "briefcase"]} />
           </label>
           <label
             className={
