@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import reactWindowSize from "react-window-size";
 
 class SelectionSort extends Component {
   constructor(props) {
@@ -111,6 +112,18 @@ class SelectionSort extends Component {
     this.setState({ tasks: evt.target.value.split(",") });
   }
 
+  renderLength() {
+    if (this.props.windowWidth >= 1024) {
+      return 85;
+    } else if (this.props.windowWidth >= 720 && this.props.windowWidth < 1024) {
+      return 58;
+    } else if (this.props.windowWidth >= 520 && this.props.windowWidth < 720) {
+      return 35;
+    } else if (this.props.windowWidth < 520) {
+      return 20;
+    }
+  }
+
   render() {
     return (
       <div className="container-fluid" style={{ padding: 0 }}>
@@ -126,6 +139,7 @@ class SelectionSort extends Component {
           <div className="row" style={{ justifyContent: "center" }}>
             <input
               type="text"
+              maxLength={this.renderLength()}
               placeholder="23,43,12,54,23,65"
               style={{
                 color: "#7ef0ff",
@@ -164,4 +178,4 @@ class SelectionSort extends Component {
   }
 }
 
-export default SelectionSort;
+export default reactWindowSize(SelectionSort);

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ParticleComponent from "../ParticleComponent";
 import SelectionSort from "./SelectionSort";
 import BubbleSort from "./BubbleSort";
+import reactWindowSize from "react-window-size";
 
 class Fun extends Component {
   constructor(props) {
@@ -101,8 +102,12 @@ class Fun extends Component {
                     ? "Green"
                     : "#FAA9F4",
                   border: "5px solid #ff033e",
-                  minHeight: 400 / this.state.count,
-                  minWidth: 400 / this.state.count
+                  minHeight:
+                    (this.props.windowWidth > 1100 ? 400 : 200) /
+                    this.state.count,
+                  minWidth:
+                    (this.props.windowWidth > 1100 ? 400 : 200) /
+                    this.state.count
                 }}
               ></div>
             );
@@ -143,7 +148,14 @@ class Fun extends Component {
                   </label>
                 </div>
                 <div className="col-sm-12 col-lg-4">
-                  <div style={{ height: 400, width: 400 }}>
+                  <div
+                    style={{
+                      height: this.props.windowWidth > 1100 ? 400 : 200,
+                      width: this.props.windowWidth > 1100 ? 400 : "100%",
+                      display: "flex",
+                      justifyContent: "center"
+                    }}
+                  >
                     <div>
                       {this.state.showCard ? (
                         this.state.result.length >= this.state.test.length &&
@@ -158,11 +170,13 @@ class Fun extends Component {
                                 position: "absolute",
                                 display: "flex",
                                 justifyContent: "center",
-                                width: 400,
+                                width:
+                                  this.props.windowWidth > 1100 ? 400 : 200,
                                 marginLeft: -15,
                                 background: "black",
                                 opacity: 0.9,
-                                height: 400,
+                                height:
+                                  this.props.windowWidth > 1100 ? 400 : 200,
                                 flexDirection: "column",
                                 alignItems: "center"
                               }}
@@ -199,11 +213,13 @@ class Fun extends Component {
                                 position: "absolute",
                                 display: "flex",
                                 justifyContent: "center",
-                                width: 400,
+                                width:
+                                  this.props.windowWidth > 1100 ? 400 : 200,
                                 marginLeft: -15,
                                 background: "black",
                                 opacity: 0.9,
-                                height: 400,
+                                height:
+                                  this.props.windowWidth > 1100 ? 400 : 200,
                                 flexDirection: "column",
                                 alignItems: "center"
                               }}
@@ -348,4 +364,4 @@ class Fun extends Component {
   }
 }
 
-export default Fun;
+export default reactWindowSize(Fun);
