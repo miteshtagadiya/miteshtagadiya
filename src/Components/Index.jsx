@@ -25,6 +25,7 @@ import Typist from "react-typist";
 // } from "@fortawesome/free-solid-svg-icons";
 import ParticleComponent from "./ParticleComponent";
 import "./index.sass";
+import Fun from "./Fun/Fun";
 library.add(fas, brands);
 
 const Index = props => (
@@ -219,6 +220,7 @@ const Index = props => (
               <Navbar />
               <Switch>
                 <Route exact path="/" component={Home} />
+                <Route exact path="/fun" component={Fun} />
                 <Route path="/skills" component={Skills} />
                 <Route path="/workexperience" component={WorkExperience} />
                 <Route path="/projects" component={Projects} />

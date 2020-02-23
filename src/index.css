@@ -12,10 +12,54 @@ code {
     monospace;
 }
 
-.bQuQso{
+.bQuQso {
   min-width: auto !important;
   border-top-left-radius: 20px !important;
   border-top-right-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
   border-bottom-right-radius: 20px !important;
+}
+
+.data-container1 {
+  height: 384px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.data-container-bubble-sort {
+  height: 384px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.fun-block1 {
+  width: 28px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #58b7ff;
+  transition: 0.2s all ease;
+}
+
+.fun-block__id1 {
+  position: absolute;
+  top: -24px;
+  width: 100%;
+  text-align: center;
+}
+
+.fun-block-bubble-sort {
+  width: 28px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #58b7ff;
+  transition: 0.2s all ease;
+}
+
+.fun-block__id-bubble-sort {
+  position: absolute;
+  top: -24px;
+  width: 100%;
+  text-align: center;
 }
