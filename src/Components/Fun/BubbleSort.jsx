@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import reactWindowSize from "react-window-size";
 
 function swap(el1, el2) {
   const container = document.querySelector(".data-container-bubble-sort");
@@ -96,6 +97,18 @@ class BubbleSort extends Component {
     this.setState({ tasks: evt.target.value.split(",") });
   }
 
+  renderLength() {
+    if (this.props.windowWidth >= 1024) {
+      return 85;
+    } else if (this.props.windowWidth >= 720 && this.props.windowWidth < 1024) {
+      return 58;
+    } else if (this.props.windowWidth >= 520 && this.props.windowWidth < 720) {
+      return 35;
+    } else if (this.props.windowWidth < 520) {
+      return 20;
+    }
+  }
+
   render() {
     return (
       <div className="container-fluid" style={{ padding: 0 }}>
@@ -112,6 +125,7 @@ class BubbleSort extends Component {
           <div className="row" style={{ justifyContent: "center" }}>
             <input
               type="text"
+              maxLength={this.renderLength()}
               placeholder="23,43,12,54,23,65"
               style={{
                 color: "#7ef0ff",
@@ -151,4 +165,4 @@ class BubbleSort extends Component {
   }
 }
 
-export default BubbleSort;
+export default reactWindowSize(BubbleSort);
