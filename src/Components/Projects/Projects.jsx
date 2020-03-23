@@ -35,6 +35,7 @@ import Table2 from "../../assets/Table/Table2.png";
 import Table3 from "../../assets/Table/Table3.png";
 import Delimiter from "../../assets/delimiter.png";
 import ReactTimesAgo from "../../assets/timesAgo/ReactTimesAgo.png";
+import ReactTimelineCharts from "../../assets/timelinecharts/React-timeline-charts.png";
 import Validate from "../../assets/validate.png";
 import npm from "../../assets/npm1.jpg";
 import Qr from "../../assets/Qr/Qr.png";
@@ -346,6 +347,45 @@ class Projects extends Component {
       </React.Fragment>
     );
 
+    let reactTimeLineCharts = (
+      <React.Fragment>
+        <label>
+          React-timeline-charts is a styled wrapper over React Google Charts
+          timelines-chart.
+        </label>
+        <br />
+        <label>
+          <span style={{ fontWeight: "bold", color: "#fcca7b" }}>
+            Props Details:{" "}
+          </span>
+        </label>
+        <br />
+
+        <label>
+          <span style={{ fontWeight: "bold", color: "#fcca7b" }}>
+            isDefault -
+          </span>{" "}
+          true or false (if true set to default react-google-charts style)
+          <br />
+          <span style={{ fontWeight: "bold", color: "#fcca7b" }}>
+            loader -
+          </span>{" "}
+          loader message
+          <br />
+          <span style={{ fontWeight: "bold", color: "#fcca7b" }}>
+            data -
+          </span>{" "}
+          []
+          <br />
+          <span style={{ fontWeight: "bold", color: "#fcca7b" }}>
+            colors -
+          </span>{" "}
+          [](colors array).
+        </label>
+        <br />
+      </React.Fragment>
+    );
+
     let delimiterDetails = (
       <React.Fragment>
         <label>
@@ -565,7 +605,7 @@ class Projects extends Component {
             images={[ReactTimesAgo]}
             tech="ReactJs, JavaScript"
             isSocial
-            header="React-TimesAgo"
+            header="React TimesAgo"
             program="Personal"
             github="https://github.com/miteshtagadiya/React-TimesAgo"
             demo="https://miteshtagadiya.github.io/React-TimesAgo/"
@@ -602,6 +642,19 @@ class Projects extends Component {
             program="Bachelors Program"
             projectYear="April, 2016 - June, 2016"
             projectDetails={myProfileDetails}
+          />
+
+          <ProjectCard
+            img={ReactTimelineCharts}
+            images={[ReactTimelineCharts]}
+            tech="ReactJs, React-Google-Charts, JavaScript"
+            isSocial
+            header="React Timeline Charts"
+            program="Personal"
+            github="https://github.com/miteshtagadiya/React-timeline-charts"
+            demo="https://miteshtagadiya.github.io/React-timeline-charts/"
+            projectYear="March-2020"
+            projectDetails={reactTimeLineCharts}
           />
 
           <ProjectCard
