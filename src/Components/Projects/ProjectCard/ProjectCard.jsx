@@ -32,7 +32,7 @@ class ProjectCard extends Component {
   render() {
     return (
       <div
-        className="col-sm-5 m-b-20 m-t-10 card Projects"
+        className="col-sm-3 m-b-20 m-t-10 card Projects"
         style={{
           borderRadius: 0,
           margin: "auto",
