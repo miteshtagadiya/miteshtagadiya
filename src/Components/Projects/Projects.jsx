@@ -34,6 +34,7 @@ import Table1 from "../../assets/Table/Table1.png";
 import Table2 from "../../assets/Table/Table2.png";
 import Table3 from "../../assets/Table/Table3.png";
 import Delimiter from "../../assets/delimiter.png";
+import ReactTimesAgo from "../../assets/timesAgo/ReactTimesAgo.png";
 import Validate from "../../assets/validate.png";
 import npm from "../../assets/npm1.jpg";
 import Qr from "../../assets/Qr/Qr.png";
@@ -46,19 +47,19 @@ class Projects extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      showLabel: false,
+      showLabel: false
     };
   }
 
   onMouseEnter = () => {
     this.setState({
-      showLabel: true,
+      showLabel: true
     });
   };
 
   onMouseLeave = () => {
     this.setState({
-      showLabel: false,
+      showLabel: false
     });
   };
 
@@ -308,6 +309,43 @@ class Projects extends Component {
       </React.Fragment>
     );
 
+    let TimesAgoDetails = (
+      <React.Fragment>
+        <label>
+          React-TimesAgo is a component that takes a date as a prop and returns
+          a time-span with live updating date.
+        </label>
+        <br />
+        <label>
+          <span style={{ fontWeight: "bold", color: "#fcca7b" }}>
+            Props Details:{" "}
+          </span>
+        </label>
+        <br />
+
+        <label>
+          <span style={{ fontWeight: "bold", color: "#fcca7b" }}>prefix -</span>{" "}
+          formatter prefix for date, ignored for type facebook.
+          <br />
+          <span style={{ fontWeight: "bold", color: "#fcca7b" }}>
+            suffix -
+          </span>{" "}
+          formatter suffix for date, ignored for type facebook.
+          <br />
+          <span style={{ fontWeight: "bold", color: "#fcca7b" }}>
+            type -
+          </span>{" "}
+          types for date format (facebook or default)
+          <br />
+          <span style={{ fontWeight: "bold", color: "#fcca7b" }}>
+            suffix -
+          </span>{" "}
+          date.
+        </label>
+        <br />
+      </React.Fragment>
+    );
+
     let delimiterDetails = (
       <React.Fragment>
         <label>
@@ -454,7 +492,7 @@ class Projects extends Component {
                 version: "0.1.0",
                 private: true,
                 dependencies: {
-                  "react-scripts": "1.1.4",
+                  "react-scripts": "1.1.4"
                 },
                 scripts: {
                   start: "webpack-dev-server --mode development",
@@ -464,14 +502,14 @@ class Projects extends Component {
                   prepublishOnly: "npm run transpile",
                   build: "webpack --mode production",
                   deploy: "gh-pages -d examples/dist",
-                  "publish-demo": "npm run build && npm run deploy",
+                  "publish-demo": "npm run build && npm run deploy"
                 },
                 description:
                   "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
                 main: "dist/index.js",
                 peerDependencies: {
                   react: "^16.3.0",
-                  "react-dom": "^16.3.0",
+                  "react-dom": "^16.3.0"
                 },
                 devDependencies: {
                   "babel-cli": "^6.26.0",
@@ -487,23 +525,23 @@ class Projects extends Component {
                   "style-loader": "^0.21.0",
                   webpack: "^4.15.0",
                   "webpack-cli": "^3.0.8",
-                  "webpack-dev-server": "^3.1.4",
+                  "webpack-dev-server": "^3.1.4"
                 },
                 repository: {
                   type: "git",
                   url:
-                    "git+https://github.com/miteshtagadiya/package-boilerplate.git",
+                    "git+https://github.com/miteshtagadiya/package-boilerplate.git"
                 },
                 keywords: ["boilerplate", "code", "for", "package"],
                 author: "Mitesh Tagadiya",
                 license: "MIT",
                 bugs: {
                   url:
-                    "https://github.com/miteshtagadiya/package-boilerplate/issues",
+                    "https://github.com/miteshtagadiya/package-boilerplate/issues"
                 },
                 homepage:
-                  "https://github.com/miteshtagadiya/package-boilerplate#readme",
-              },
+                  "https://github.com/miteshtagadiya/package-boilerplate#readme"
+              }
             ]}
           />
         </label>
@@ -523,6 +561,18 @@ class Projects extends Component {
         <ParticleComponent />
         <div className="row" style={{ justifyContent: "space-around" }}>
           <ProjectCard
+            img={npm}
+            images={[ReactTimesAgo]}
+            tech="ReactJs, JavaScript"
+            isSocial
+            header="React-TimesAgo"
+            program="Personal"
+            github="https://github.com/miteshtagadiya/React-TimesAgo"
+            demo="https://miteshtagadiya.github.io/React-TimesAgo/"
+            projectYear="May-2019"
+            projectDetails={TimesAgoDetails}
+          />
+          <ProjectCard
             img={MyProfile}
             images={[
               MyProfile,
@@ -541,7 +591,7 @@ class Projects extends Component {
               MyProfile12,
               MyProfileAdmin3,
               MyProfileAdmin4,
-              MyProfileAdmin5,
+              MyProfileAdmin5
             ]}
             tech="PHP, MySql, CKeditor, jQuery, javaScript, Bootstrap,
                         HTML, CSS"
@@ -562,7 +612,7 @@ class Projects extends Component {
               AutoAttendance3,
               AutoAttendance4,
               AutoAttendance5,
-              AutoAttendance6,
+              AutoAttendance6
             ]}
             tech="PHP, MySql, jQuery, javaScript, Bootstrap,
                         HTML, CSS"
@@ -586,7 +636,7 @@ class Projects extends Component {
               kruma5,
               kruma6,
               kruma7,
-              kruma8,
+              kruma8
             ]}
             tech="Ionic Framework, Angular1, Css"
             isSocial={false}
