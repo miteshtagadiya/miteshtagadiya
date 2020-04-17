@@ -17,6 +17,7 @@ import battle from "../assets/battle1.png";
 import windowSize from "react-window-size";
 import ContactMe from "./ContactMe/ContactMe";
 import Typist from "react-typist";
+import ReactGA from "react-ga";
 // import { ButtonMenu, MenuItem, MenuDivider } from "react-rainbow-components";
 // import {
 //   faAlignCenter,
@@ -28,7 +29,7 @@ import "./index.sass";
 import Fun from "./Fun/Fun";
 library.add(fas, brands);
 
-const Index = props => (
+const Index = (props) => (
   <div className="App">
     <div className="container-fluid overflow-particle">
       <div
@@ -42,11 +43,11 @@ const Index = props => (
               ? {
                   borderRight: "1px solid #7ef0ff",
                   background: "#00003f",
-                  textAlign: "center"
+                  textAlign: "center",
                 }
               : {
                   background: "#00003f",
-                  textAlign: "center"
+                  textAlign: "center",
                 }
           }
         >
@@ -71,7 +72,7 @@ const Index = props => (
                 style={{
                   borderRadius: "50%",
                   height: 250,
-                  width: 230
+                  width: 230,
                 }}
                 alt="Mitesh Tagadiya"
               />
@@ -98,6 +99,13 @@ const Index = props => (
                   target="_blank"
                   aria-label="Github"
                   rel="noopener noreferrer"
+                  onClick={() => {
+                    ReactGA.event({
+                      category: "Social",
+                      action: "Github Clicked",
+                      label: "Github",
+                    });
+                  }}
                 >
                   <Icon type="github" />
                 </a>
@@ -109,6 +117,13 @@ const Index = props => (
                   target="_blank"
                   aria-label="Gitlab"
                   rel="noopener noreferrer"
+                  onClick={() => {
+                    ReactGA.event({
+                      category: "Social",
+                      action: "Gitlab Clicked",
+                      label: "Gitlab",
+                    });
+                  }}
                 >
                   <Icon type="gitlab" />
                 </a>
@@ -120,6 +135,13 @@ const Index = props => (
                   target="_blank"
                   aria-label="LinkedIn"
                   rel="noopener noreferrer"
+                  onClick={() => {
+                    ReactGA.event({
+                      category: "Social",
+                      action: "LinkedIn Clicked",
+                      label: "LinkedIn",
+                    });
+                  }}
                 >
                   <Icon type="linkedin" />
                 </a>
@@ -131,6 +153,13 @@ const Index = props => (
                   target="_blank"
                   aria-label="Resume"
                   rel="noopener noreferrer"
+                  onClick={() => {
+                    ReactGA.event({
+                      category: "Social",
+                      action: "Resume Clicked",
+                      label: "Resume",
+                    });
+                  }}
                 >
                   <Icon type="link" />
                 </a>
@@ -142,6 +171,13 @@ const Index = props => (
                   target="_blank"
                   aria-label="StackOverflow"
                   rel="noopener noreferrer"
+                  onClick={() => {
+                    ReactGA.event({
+                      category: "Social",
+                      action: "StackOverflow Clicked",
+                      label: "StackOverflow",
+                    });
+                  }}
                 >
                   <FontAwesomeIcon
                     icon={["fab", "stack-overflow"]}
@@ -157,6 +193,13 @@ const Index = props => (
                   target="_blank"
                   aria-label="HackerRank"
                   rel="noopener noreferrer"
+                  onClick={() => {
+                    ReactGA.event({
+                      category: "Social",
+                      action: "HackerRank Clicked",
+                      label: "HackerRank",
+                    });
+                  }}
                 >
                   <img
                     src={hackerrank}
@@ -174,6 +217,13 @@ const Index = props => (
                   target="_blank"
                   aria-label="CSSBattle"
                   rel="noopener noreferrer"
+                  onClick={() => {
+                    ReactGA.event({
+                      category: "Social",
+                      action: "CSSBattle Clicked",
+                      label: "CSSBattle",
+                    });
+                  }}
                 >
                   <img
                     src={battle}
@@ -187,7 +237,7 @@ const Index = props => (
                 style={
                   props.windowWidth > 1200
                     ? {
-                       display: "auto"
+                        display: "auto",
                       }
                     : { display: "none" }
                 }
@@ -197,6 +247,13 @@ const Index = props => (
                   rel="noopener noreferrer"
                   target="_blank"
                   aria-label="Github"
+                  onClick={() =>
+                    ReactGA.event({
+                      category: "GameKit View",
+                      action: "GameKit View Clicked",
+                      label: "GameKit View",
+                    })
+                  }
                 >
                   <label
                     className="link-label-home"
