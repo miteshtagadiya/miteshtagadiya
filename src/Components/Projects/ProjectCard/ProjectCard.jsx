@@ -3,6 +3,7 @@ import { Modal } from "antd";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import ReactGA from "react-ga";
 import "../Projects.sass";
 
 class ProjectCard extends Component {
@@ -66,7 +67,12 @@ class ProjectCard extends Component {
           >
             <label
               className="link-label"
-              onClick={() => this.setModalVisible(true)}
+              onClick={() => {
+                ReactGA.modalview(
+                  `${window.location.hash}/${this.props.header}`
+                );
+                this.setModalVisible(true);
+              }}
             >
               Details
             </label>
@@ -189,6 +195,13 @@ class ProjectCard extends Component {
                               rel="noopener noreferrer"
                               target="_blank"
                               aria-label="Github"
+                              onClick={() => {
+                                ReactGA.event({
+                                  category: "Project Demo",
+                                  action: this.props.github,
+                                  label: "Project Github",
+                                });
+                              }}
                             >
                               <label
                                 className="link-label"
@@ -202,6 +215,13 @@ class ProjectCard extends Component {
                               rel="noopener noreferrer"
                               target="_blank"
                               aria-label="Demo"
+                              onClick={() => {
+                                ReactGA.event({
+                                  category: "Project Demo",
+                                  action: this.props.demo,
+                                  label: "Project Demo",
+                                });
+                              }}
                             >
                               <label
                                 className="link-label"
