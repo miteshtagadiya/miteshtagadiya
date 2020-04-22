@@ -44,27 +44,69 @@ import ReactJson from "react-json-view";
 import "./Projects.sass";
 import ProjectCard from "./ProjectCard/ProjectCard";
 import ParticleComponent from "../ParticleComponent";
+import Covid from "../../assets/Covid19.gif";
+import Shared from "../../assets/Shared.gif";
+
 class Projects extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      showLabel: false
+      showLabel: false,
     };
   }
 
   onMouseEnter = () => {
     this.setState({
-      showLabel: true
+      showLabel: true,
     });
   };
 
   onMouseLeave = () => {
     this.setState({
-      showLabel: false
+      showLabel: false,
     });
   };
 
   render() {
+    let CovidDetails = (
+      <React.Fragment>
+        <label>
+          COVID-19 Global | India - Get Realtime coronavirus updates for India
+          and global. Analytics of all the affected countries with the number of
+          confirmed, recovered, deaths and active cases.
+        </label>
+        <br />
+        <label>
+          Dashboard created in ReactJS with ReCharts, React-Google-Charts,
+          React-Simple-Maps, React-Table.
+        </label>
+      </React.Fragment>
+    );
+
+    let SharedComponents = (
+      <React.Fragment>
+        <label>React shared components</label>
+        <br />
+        <label>
+          By reusing your own components you can save development time, keep
+          your UI consistent across applications and let your whole team build
+          together. No need to create a UI library for reusable components
+          across apps.
+        </label>
+        <br />
+        <label>
+          Create Shared UI App to create UI components. Deploy Shared UI App and
+          Dynamically load a React Component from that URL using
+          remote-component.
+        </label>
+        <br />
+        <label>
+          You can also add shared styles and common files in Shared App which
+          you want to reuse.
+        </label>
+      </React.Fragment>
+    );
+
     let myProfileDetails = (
       <React.Fragment>
         <label>
@@ -532,7 +574,7 @@ class Projects extends Component {
                 version: "0.1.0",
                 private: true,
                 dependencies: {
-                  "react-scripts": "1.1.4"
+                  "react-scripts": "1.1.4",
                 },
                 scripts: {
                   start: "webpack-dev-server --mode development",
@@ -542,14 +584,14 @@ class Projects extends Component {
                   prepublishOnly: "npm run transpile",
                   build: "webpack --mode production",
                   deploy: "gh-pages -d examples/dist",
-                  "publish-demo": "npm run build && npm run deploy"
+                  "publish-demo": "npm run build && npm run deploy",
                 },
                 description:
                   "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
                 main: "dist/index.js",
                 peerDependencies: {
                   react: "^16.3.0",
-                  "react-dom": "^16.3.0"
+                  "react-dom": "^16.3.0",
                 },
                 devDependencies: {
                   "babel-cli": "^6.26.0",
@@ -565,23 +607,23 @@ class Projects extends Component {
                   "style-loader": "^0.21.0",
                   webpack: "^4.15.0",
                   "webpack-cli": "^3.0.8",
-                  "webpack-dev-server": "^3.1.4"
+                  "webpack-dev-server": "^3.1.4",
                 },
                 repository: {
                   type: "git",
                   url:
-                    "git+https://github.com/miteshtagadiya/package-boilerplate.git"
+                    "git+https://github.com/miteshtagadiya/package-boilerplate.git",
                 },
                 keywords: ["boilerplate", "code", "for", "package"],
                 author: "Mitesh Tagadiya",
                 license: "MIT",
                 bugs: {
                   url:
-                    "https://github.com/miteshtagadiya/package-boilerplate/issues"
+                    "https://github.com/miteshtagadiya/package-boilerplate/issues",
                 },
                 homepage:
-                  "https://github.com/miteshtagadiya/package-boilerplate#readme"
-              }
+                  "https://github.com/miteshtagadiya/package-boilerplate#readme",
+              },
             ]}
           />
         </label>
@@ -600,6 +642,30 @@ class Projects extends Component {
       >
         <ParticleComponent />
         <div className="row" style={{ justifyContent: "space-around" }}>
+          <ProjectCard
+            img={Covid}
+            images={[Covid]}
+            tech="ReactJs, JavaScript"
+            isSocial
+            header="Covid-19 India"
+            program="Personal"
+            github="https://github.com/miteshtagadiya/Covid-19-Global-Dashboard"
+            demo="https://miteshtagadiya.github.io/Covid-19-Global-Dashboard"
+            projectYear="March-2020"
+            projectDetails={CovidDetails}
+          />
+          <ProjectCard
+            img={Shared}
+            images={[Shared]}
+            tech="ReactJs, JavaScript"
+            isSocial
+            header="React shared components"
+            program="Personal"
+            github="https://github.com/miteshtagadiya/React-shared-components"
+            demo="https://github.com/miteshtagadiya/React-shared-components"
+            projectYear="April-2020"
+            projectDetails={SharedComponents}
+          />
           <ProjectCard
             img={npm}
             images={[ReactTimesAgo]}
@@ -631,7 +697,7 @@ class Projects extends Component {
               MyProfile12,
               MyProfileAdmin3,
               MyProfileAdmin4,
-              MyProfileAdmin5
+              MyProfileAdmin5,
             ]}
             tech="PHP, MySql, CKeditor, jQuery, javaScript, Bootstrap,
                         HTML, CSS"
@@ -665,7 +731,7 @@ class Projects extends Component {
               AutoAttendance3,
               AutoAttendance4,
               AutoAttendance5,
-              AutoAttendance6
+              AutoAttendance6,
             ]}
             tech="PHP, MySql, jQuery, javaScript, Bootstrap,
                         HTML, CSS"
@@ -689,7 +755,7 @@ class Projects extends Component {
               kruma5,
               kruma6,
               kruma7,
-              kruma8
+              kruma8,
             ]}
             tech="Ionic Framework, Angular1, Css"
             isSocial={false}
