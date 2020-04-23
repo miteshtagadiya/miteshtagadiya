@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ca6c37574ce26c2d349df83d65a1734",
+    "revision": "ba824a63de24278d21c9f5cba3f47a9f",
     "url": "/index.html"
   },
   {
-    "revision": "45e1f8800c8dfb3669c0",
+    "revision": "38663a3736c1876f7720",
     "url": "/static/css/2.43f5c193.chunk.css"
   },
   {
-    "revision": "62faaeaba0658feb9a1d",
-    "url": "/static/css/main.0b293a68.chunk.css"
+    "revision": "c75080066f57829a7874",
+    "url": "/static/css/main.533b6d05.chunk.css"
   },
   {
-    "revision": "45e1f8800c8dfb3669c0",
-    "url": "/static/js/2.f6fb8935.chunk.js"
+    "revision": "38663a3736c1876f7720",
+    "url": "/static/js/2.1abee087.chunk.js"
   },
   {
-    "revision": "62faaeaba0658feb9a1d",
-    "url": "/static/js/main.a6f93ad9.chunk.js"
+    "revision": "c75080066f57829a7874",
+    "url": "/static/js/main.12c15745.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -164,6 +164,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ReactTimesAgo.6e1cdc60.png"
   },
   {
+    "revision": "43130e87bb3b72c471055911bf2ed668",
+    "url": "/static/media/Restaurant-app-customers.43130e87.png"
+  },
+  {
     "revision": "da9c90d3112f350859b79c62d0befc62",
     "url": "/static/media/Shared.da9c90d3.gif"
   },
@@ -228,6 +232,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/linux-icon.9704024a.svg"
   },
   {
+    "revision": "789ec306fd3cfa35cb5ce32470ccbb4b",
+    "url": "/static/media/microfrontend.789ec306.gif"
+  },
+  {
     "revision": "bdd030be9fa08bf987aeb36c8d83e4d4",
     "url": "/static/media/myprofile.bdd030be.png"
   },
@@ -274,6 +282,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "40e4d989832a0162b3554f02755943f1",
     "url": "/static/media/reduxobservable.40e4d989.png"
+  },
+  {
+    "revision": "51dee17c6a86251d63f7aa916294f3b3",
+    "url": "/static/media/restaurant-app.51dee17c.png"
   },
   {
     "revision": "c13c393f310c02a422138de8d2ba4f31",
