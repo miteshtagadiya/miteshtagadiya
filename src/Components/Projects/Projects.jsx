@@ -46,6 +46,9 @@ import ProjectCard from "./ProjectCard/ProjectCard";
 import ParticleComponent from "../ParticleComponent";
 import Covid from "../../assets/Covid19.gif";
 import Shared from "../../assets/Shared.gif";
+import MicroFrontendImg from "../../assets/microfrontend.gif";
+import Restaurant1 from "../../assets/Restaurant-app-customers.png";
+import Restaurant2 from "../../assets/restaurant-app.png";
 
 class Projects extends Component {
   constructor(props) {
@@ -635,6 +638,44 @@ class Projects extends Component {
         <label>Generate Qr code by user input.</label>
       </React.Fragment>
     );
+
+    let MicroFrontend = (
+      <React.Fragment>
+        <label>Micro Front-end react apps created by Create-React-App</label>
+        <label>
+          Micro-frontend architecture is a design approach in which a front-end
+          app is decomposed into individual, semi-independent “microapps”
+          working loosely together.
+        </label>
+        <label>
+          Th applications are loaded into a micro-frontend container. The
+          container runs it as of the micro frontend is its own component and
+          provides seamless workflow to users.
+        </label>
+      </React.Fragment>
+    );
+
+    let multiReact = (
+      <React.Fragment>
+        <label>
+          Multiple React apps created by CRA in single port through docker
+          containers and nginx.
+        </label>
+        <label>
+          Serve multiple react apps in same host but different routes.
+        </label>
+      </React.Fragment>
+    );
+
+    let restaurantApp = (
+      <React.Fragment>
+        <label>
+          Restaurant CRUD app is sample project with CRUD operations build with
+          ant-design, bootstrap4 and ReactJs.
+        </label>
+      </React.Fragment>
+    );
+
     return (
       <div
         className="container-fluid Projects"
@@ -665,6 +706,42 @@ class Projects extends Component {
             demo="https://github.com/miteshtagadiya/React-shared-components"
             projectYear="April-2020"
             projectDetails={SharedComponents}
+          />
+          <ProjectCard
+            img={MicroFrontendImg}
+            images={[MicroFrontendImg]}
+            tech="ReactJs, JavaScript"
+            isSocial
+            header="Microfrontend-react"
+            program="Personal"
+            github="https://github.com/miteshtagadiya/microfrontend-react"
+            demo="https://github.com/miteshtagadiya/microfrontend-react"
+            projectYear="March-2020"
+            projectDetails={MicroFrontend}
+          />
+          <ProjectCard
+            img={MicroFrontendImg}
+            images={[MicroFrontendImg]}
+            tech="ReactJs, JavaScript"
+            isSocial
+            header="Multiple-react-docker-nginx"
+            program="Personal"
+            github="https://github.com/miteshtagadiya/multiple-react-docker-nginx"
+            demo="https://github.com/miteshtagadiya/multiple-react-docker-nginx"
+            projectYear="February-2020"
+            projectDetails={multiReact}
+          />
+          <ProjectCard
+            img={Restaurant2}
+            images={[Restaurant2, Restaurant1]}
+            tech="ReactJs, JavaScript"
+            isSocial
+            header="Restaurant App"
+            program="Personal"
+            github="https://github.com/miteshtagadiya/restaurant-app"
+            demo="https://miteshtagadiya.github.io/restaurant-app/"
+            projectYear="February-2020"
+            projectDetails={restaurantApp}
           />
           <ProjectCard
             img={npm}
