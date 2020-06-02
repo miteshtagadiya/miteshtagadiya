@@ -6,16 +6,18 @@ class SelectionSort extends Component {
     super(props);
     this.state = {
       addtask: 0,
-      tasks: []
+      tasks: [23, 43, 12, 54, 23, 65, 12, 76, 46, 90, 14, 2, 16, 43],
     };
     this.updateInput = this.updateInput.bind(this);
   }
 
   componentDidMount() {
     this.container = document.querySelector(".data-container1");
+    this.generateBlocks(this.state.tasks);
+    this.selectionSort();
   }
 
-  generateBlocks = arr => {
+  generateBlocks = (arr) => {
     // if (num && typeof num !== "number") {
     //   alert("First argument must be a typeof Number");
     //   return;
@@ -39,7 +41,7 @@ class SelectionSort extends Component {
   };
 
   swapSelectionSort = (el1, el2) => {
-    return new Promise(resolve => {
+    return new Promise((resolve) => {
       const style1 = window.getComputedStyle(el1);
       const style2 = window.getComputedStyle(el2);
 
@@ -50,7 +52,7 @@ class SelectionSort extends Component {
       el2.style.transform = transform1;
 
       // Wait for the transition to end!
-      window.requestAnimationFrame(function() {
+      window.requestAnimationFrame(function () {
         setTimeout(() => {
           var temp = document.createElement("div");
           el1.parentNode.insertBefore(temp, el1);
@@ -92,7 +94,7 @@ class SelectionSort extends Component {
       if (minIdx !== i) {
         blocks[i].style.backgroundColor = "#ff033e";
         blocks[minIdx].style.backgroundColor = "#ff033e";
-        await new Promise(resolve =>
+        await new Promise((resolve) =>
           setTimeout(() => {
             resolve();
           }, delay)
@@ -131,7 +133,7 @@ class SelectionSort extends Component {
           style={{
             border: "2px solid #7ef0ff",
             borderRadius: 10,
-            marginTop: 50
+            marginTop: 50,
           }}
         >
           {/* <ParticleComponent /> */}
@@ -146,7 +148,7 @@ class SelectionSort extends Component {
                 padding: 15,
                 borderRadius: "5px",
                 border: "2px solid #7ef0ff",
-                background: "transparent"
+                background: "transparent",
               }}
               onChange={this.updateInput}
             />
@@ -159,7 +161,7 @@ class SelectionSort extends Component {
                 padding: "15px 25px",
                 borderRadius: "5px",
                 border: "2px solid #7ef0ff",
-                background: "transparent"
+                background: "transparent",
               }}
               onClick={() => {
                 this.generateBlocks(this.state.tasks);
