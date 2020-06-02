@@ -3,7 +3,7 @@ import reactWindowSize from "react-window-size";
 
 function swap(el1, el2) {
   const container = document.querySelector(".data-container-bubble-sort");
-  return new Promise(resolve => {
+  return new Promise((resolve) => {
     const style1 = window.getComputedStyle(el1);
     const style2 = window.getComputedStyle(el2);
 
@@ -14,7 +14,7 @@ function swap(el1, el2) {
     el2.style.transform = transform1;
 
     // Wait for the transition to end!
-    window.requestAnimationFrame(function() {
+    window.requestAnimationFrame(function () {
       setTimeout(() => {
         container.insertBefore(el2, el1);
         resolve();
@@ -34,7 +34,7 @@ async function bubbleSort(delay = 100) {
       blocks[j].style.backgroundColor = "#ff033e";
       blocks[j - 1].style.backgroundColor = "#ff033e";
 
-      await new Promise(resolve =>
+      await new Promise((resolve) =>
         setTimeout(() => {
           resolve();
         }, delay)
@@ -61,16 +61,18 @@ class BubbleSort extends Component {
     super(props);
     this.state = {
       addtask: 0,
-      tasks: []
+      tasks: [23, 43, 12, 54, 23, 65, 12, 76, 46, 90, 14, 2, 16, 43],
     };
     this.updateInput = this.updateInput.bind(this);
   }
 
   componentDidMount() {
     this.container = document.querySelector(".data-container-bubble-sort");
+    this.generateBlocks(this.state.tasks);
+    bubbleSort();
   }
 
-  generateBlocks = arr => {
+  generateBlocks = (arr) => {
     // if (num && typeof num !== "number") {
     //   alert("First argument must be a typeof Number");
     //   return;
@@ -116,7 +118,7 @@ class BubbleSort extends Component {
           style={{
             border: "2px solid #7ef0ff",
             borderRadius: 10,
-            marginTop: 50
+            marginTop: 50,
           }}
         >
           {/* <ParticleComponent /> */}
@@ -132,7 +134,7 @@ class BubbleSort extends Component {
                 padding: 15,
                 borderRadius: "5px",
                 border: "2px solid #7ef0ff",
-                background: "transparent"
+                background: "transparent",
               }}
               onChange={this.updateInput}
             />
@@ -146,7 +148,7 @@ class BubbleSort extends Component {
                 padding: "15px 25px",
                 borderRadius: "5px",
                 border: "2px solid #7ef0ff",
-                background: "transparent"
+                background: "transparent",
               }}
               onClick={() => {
                 this.generateBlocks(this.state.tasks);
