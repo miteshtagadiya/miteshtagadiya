@@ -7,6 +7,7 @@ class SelectionSort extends Component {
     this.state = {
       addtask: 0,
       tasks: [23, 43, 12, 54, 23, 65, 12, 76, 46, 90, 14, 2, 16, 43],
+      disabled: true,
     };
     this.updateInput = this.updateInput.bind(this);
   }
@@ -108,6 +109,9 @@ class SelectionSort extends Component {
 
       blocks[i].style.backgroundColor = "#38e715";
     }
+    this.setState({
+      disabled: false,
+    });
   }
 
   updateInput(evt) {
@@ -164,8 +168,13 @@ class SelectionSort extends Component {
                 background: "transparent",
               }}
               onClick={() => {
-                this.generateBlocks(this.state.tasks);
-                this.selectionSort();
+                if (!this.state.disabled) {
+                  this.setState({
+                    disabled: true,
+                  });
+                  this.generateBlocks(this.state.tasks);
+                  this.selectionSort();
+                }
               }}
             >
               Sort
