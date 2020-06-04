@@ -52,13 +52,13 @@ class Home extends Component {
                   />
                   2016 - 2018
                 </label>
-                <label style={{ fontSize: 18 }}>
+                {/* <label style={{ fontSize: 18 }}>
                   <FontAwesomeIcon
                     icon={["fas", "trophy"]}
                     style={{ color: "#7ef0ff", marginRight: 20 }}
                   />
                   6.79 / 10
-                </label>
+                </label> */}
               </div>
             </div>
 
@@ -91,13 +91,13 @@ class Home extends Component {
                   />
                   2013 - 2016
                 </label>
-                <label style={{ fontSize: 18 }}>
+                {/* <label style={{ fontSize: 18 }}>
                   <FontAwesomeIcon
                     icon={["fas", "trophy"]}
                     style={{ color: "#7ef0ff", marginRight: 20 }}
                   />
                   7.02 / 10
-                </label>
+                </label> */}
               </div>
             </div>
           </div>
