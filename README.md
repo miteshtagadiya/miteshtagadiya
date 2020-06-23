@@ -3,6 +3,9 @@
 
 Portfolio app
 
+### Demo
+[https://miteshtagadiya.js.org](https://miteshtagadiya.js.org/)
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
