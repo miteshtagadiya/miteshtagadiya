@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.533b6d05.chunk.css",
-    "main.js": "/static/js/main.33690196.chunk.js",
+    "main.css": "/static/css/main.4cdd5d61.chunk.css",
+    "main.js": "/static/js/main.c7536a56.chunk.js",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "static/css/2.43f5c193.chunk.css": "/static/css/2.43f5c193.chunk.css",
-    "static/js/2.d2a82448.chunk.js": "/static/js/2.d2a82448.chunk.js",
+    "static/css/2.d5d3f33b.chunk.css": "/static/css/2.d5d3f33b.chunk.css",
+    "static/js/2.15572462.chunk.js": "/static/js/2.15572462.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.b9aed40bce7a359dc9030150482f21e2.js": "/precache-manifest.b9aed40bce7a359dc9030150482f21e2.js",
+    "precache-manifest.dbf0619ebdf60d471f7173f7f0d2fb7b.js": "/precache-manifest.dbf0619ebdf60d471f7173f7f0d2fb7b.js",
     "service-worker.js": "/service-worker.js",
     "static/media/AutoAttendance1.png": "/static/media/AutoAttendance1.d83e359d.png",
     "static/media/AutoAttendance2.png": "/static/media/AutoAttendance2.22fc1fae.png",
