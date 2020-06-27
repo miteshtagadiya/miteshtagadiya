@@ -2,16 +2,43 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="Description" content="Mitesh Tagadiya">
+    <meta name="Description" content="Mitesh Tagadiya" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo180.png">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Mitesh Tagadiya</title>
   </head>
   <body>
+    <heading />
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-   
+    <main>
+      <div id="root"></div>
+    </main>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker
+            .register("worker.js")
+            .then(
+              function (registration) {
+                console.log(
+                  "Worker registration successful",
+                  registration.scope
+                );
+              },
+              function (err) {
+                console.log("Worker registration failed", err);
+              }
+            )
+            .catch(function (err) {
+              console.log(err);
+            });
+        });
+      } else {
+        console.log("Service Worker is not supported by browser.");
+      }
+    </script>
   </body>
 </html>
