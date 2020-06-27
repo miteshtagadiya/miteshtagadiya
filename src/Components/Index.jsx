@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/global.sass";
 import { Icon } from "antd";
-import Avatar from "../assets/profile.jpg";
+import Avatar from "../assets/profile.svg";
 import { HashRouter, Switch, Route } from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
 import Home from "./Home/Home";
@@ -71,7 +71,7 @@ const Index = (props) => (
                 className="img-thumbnail"
                 style={{
                   borderRadius: "50%",
-                  height: 250,
+                  height: 230,
                   width: 230,
                 }}
                 alt="Mitesh Tagadiya"
