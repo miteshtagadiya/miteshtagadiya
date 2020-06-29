@@ -9,8 +9,24 @@
     <link rel="apple-touch-icon" href="/logo192.png" />
     <link rel="manifest" href="/manifest.json" />
     <title>Mitesh Tagadiya</title>
-    <link href="/static/css/6.e602d97d.chunk.css" rel="stylesheet" />
-    <link href="/static/css/main.3a0852eb.chunk.css" rel="stylesheet" />
+    <link
+      rel="preload"
+      href="/static/css/6.e602d97d.chunk.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript
+      ><link rel="stylesheet" href="/static/css/6.e602d97d.chunk.css"
+    /></noscript>
+    <link
+      rel="preload"
+      href="/static/css/main.3a0852eb.chunk.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript
+      ><link rel="stylesheet" href="/static/css/main.3a0852eb.chunk.css"
+    /></noscript>
   </head>
 
   <body>
@@ -163,6 +179,7 @@
               t.push((r[2] = n));
               var c,
                 f = document.createElement("script");
+                f.defer = true;
               (f.charset = "utf-8"),
                 (f.timeout = 120),
                 u.nc && f.setAttribute("nonce", u.nc),
@@ -284,7 +301,7 @@
         r();
       })([]);
     </script>
-    <script src="/static/js/6.be38f725.chunk.js"></script>
-    <script src="/static/js/main.408d51fb.chunk.js"></script>
+    <script defer src="/static/js/6.be38f725.chunk.js"></script>
+    <script async src="/static/js/main.408d51fb.chunk.js"></script>
   </body>
 </html>
