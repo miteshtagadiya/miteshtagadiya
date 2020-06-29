@@ -5,8 +5,10 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import loadable from "@loadable/component";
 import "./WorkExperience.sass";
-import ParticleComponent from "../ParticleComponent";
+const ParticleComponent = loadable(() => import("../ParticleComponent"));
+
 
 class WorkExperience extends Component {
   constructor(props) {
