@@ -42,14 +42,14 @@ import Qr from "../../assets/Qr/Qr.png";
 import Qr1 from "../../assets/Qr/QR1.png";
 import ReactJson from "react-json-view";
 import "./Projects.sass";
-import ProjectCard from "./ProjectCard/ProjectCard";
-import ParticleComponent from "../ParticleComponent";
 import Covid from "../../assets/Covid19.gif";
 import Shared from "../../assets/Shared.gif";
 import MicroFrontendImg from "../../assets/microfrontend.gif";
 import Restaurant1 from "../../assets/Restaurant-app-customers.png";
 import Restaurant2 from "../../assets/restaurant-app.png";
-
+import loadable from "@loadable/component";
+const ParticleComponent = loadable(() => import("../ParticleComponent"));
+const ProjectCard = loadable(() => import("./ProjectCard/ProjectCard"));
 class Projects extends Component {
   constructor(props) {
     super(props);
