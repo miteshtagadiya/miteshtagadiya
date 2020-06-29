@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./ContactMe.sass";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import ParticleComponent from "../ParticleComponent";
+import loadable from "@loadable/component";
+const ParticleComponent = loadable(() => import("../ParticleComponent"));
 
 class ContactMe extends Component {
   render() {
