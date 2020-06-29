@@ -12,7 +12,6 @@ import java from "../../assets/java.svg";
 import php from "../../assets/php.svg";
 import mysql from "../../assets/mysql-icon.svg";
 import postgresql from "../../assets/postgresql.svg";
-import ParticleComponent from "../ParticleComponent";
 import brackets from "../../assets/brackets.png";
 import c from "../../assets/c.svg";
 import cpp from "../../assets/cpp.svg";
@@ -31,14 +30,18 @@ import idea from "../../assets/intellij-idea.svg";
 import ts from "../../assets/ts.png";
 import nextjs from "../../assets/nextjs.png";
 import Redux from "../../assets/redux.svg";
-import SkillCard from "./SkillCard/SkillCard";
-import SimplePieChart from "../Charts/SimplePieChart/SimplePieChart";
+import loadable from "@loadable/component";
+const ParticleComponent = loadable(() => import("../ParticleComponent"));
+const SkillCard = loadable(() => import("./SkillCard/SkillCard"));
+const SimplePieChart = loadable(() =>
+  import("../Charts/SimplePieChart/SimplePieChart")
+);
 
 class Skills extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      chart: "Frontend"
+      chart: "Frontend",
     };
   }
 
@@ -119,9 +122,9 @@ class Skills extends Component {
         <div className="row">
           <div className="col-sm-5">
             <SimplePieChart
-              onPlotClick={data => {
+              onPlotClick={(data) => {
                 this.setState({
-                  chart: data
+                  chart: data,
                 });
               }}
               onplot={true}
