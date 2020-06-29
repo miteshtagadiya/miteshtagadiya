@@ -1,32 +1,36 @@
 import React from "react";
 import "../styles/global.sass";
+import loadable from "@loadable/component";
 import { Icon } from "antd";
 import Avatar from "../assets/profile.svg";
 import { HashRouter, Switch, Route } from "react-router-dom";
-import Navbar from "./Navbar/Navbar";
-import Home from "./Home/Home";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import brands from "@fortawesome/fontawesome-free-brands";
-import Skills from "./Skills/Skills";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import WorkExperience from "./WorkExperience/WorkExperience";
-import Projects from "./Projects/Projects";
-import hackerrank from "../assets/hackerrank-brands.svg";
 import battle from "../assets/battle1.png";
 import windowSize from "react-window-size";
-import ContactMe from "./ContactMe/ContactMe";
 import Typist from "react-typist";
 import ReactGA from "react-ga";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import hackerrank from "../assets/hackerrank-brands.svg";
 // import { ButtonMenu, MenuItem, MenuDivider } from "react-rainbow-components";
 // import {
 //   faAlignCenter,
 //   faAlignRight,
 //   faEllipsisV
 // } from "@fortawesome/free-solid-svg-icons";
-import ParticleComponent from "./ParticleComponent";
 import "./index.sass";
-import Fun from "./Fun/Fun";
+const Skills = loadable(() => import("./Skills/Skills"));
+const Fun = loadable(() => import("./Fun/Fun"));
+const ParticleComponent = loadable(() => import("./ParticleComponent"));
+const ContactMe = loadable(() => import("./ContactMe/ContactMe"));
+const Projects = loadable(() => import("./Projects/Projects"));
+const WorkExperience = loadable(() =>
+  import("./WorkExperience/WorkExperience")
+);
+const Navbar = loadable(() => import("./Navbar/Navbar"));
+const Home = loadable(() => import("./Home/Home"));
+
 library.add(fas, brands);
 
 const Index = (props) => (
