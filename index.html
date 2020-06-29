@@ -9,30 +9,17 @@
     <link rel="apple-touch-icon" href="/logo192.png" />
     <link rel="manifest" href="/manifest.json" />
     <title>Mitesh Tagadiya</title>
-    <link
-      rel="preload"
-      href="/static/css/6.c07f1c96.chunk.css"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-    />
-    <noscript
-      ><link rel="stylesheet" href="/static/css/6.c07f1c96.chunk.css"
-    /></noscript>
-    <link
-      rel="preload"
-      href="/static/css/main.8b8d36dc.chunk.css"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-    />
-    <noscript
-      ><link rel="stylesheet" href="/static/css/main.8b8d36dc.chunk.css"
-    /></noscript>
+    <link href="/static/css/6.e602d97d.chunk.css" rel="stylesheet" />
+    <link href="/static/css/main.3a0852eb.chunk.css" rel="stylesheet" />
   </head>
+
   <body>
     <heading /><noscript
       >You need to enable JavaScript to run this app.</noscript
     >
-    <main><div id="root"></div></main>
+    <main>
+      <div id="root"></div>
+    </main>
     <script>
       "serviceWorker" in navigator
         ? window.addEventListener("load", function () {
@@ -56,18 +43,18 @@
       !(function (e) {
         function t(t) {
           for (
-            var n, o, u = t[0], f = t[1], i = t[2], d = 0, s = [];
-            d < u.length;
-            d++
+            var n, o, u = t[0], f = t[1], i = t[2], l = 0, s = [];
+            l < u.length;
+            l++
           )
-            (o = u[d]),
+            (o = u[l]),
               Object.prototype.hasOwnProperty.call(a, o) &&
                 a[o] &&
                 s.push(a[o][0]),
               (a[o] = 0);
           for (n in f)
             Object.prototype.hasOwnProperty.call(f, n) && (e[n] = f[n]);
-          for (l && l(t); s.length; ) s.shift()();
+          for (d && d(t); s.length; ) s.shift()();
           return c.push.apply(c, i || []), r();
         }
         function r() {
@@ -109,8 +96,8 @@
                           5: "31d6cfe0",
                           7: "4b975ea7",
                           8: "31d6cfe0",
-                          9: "4a493dcd",
-                          10: "614be1b1",
+                          9: "983ab698",
+                          10: "4ece9906",
                           11: "a02c8be8",
                           12: "ac10ef3c",
                           13: "31d6cfe0",
@@ -131,16 +118,16 @@
                     f++
                   ) {
                     var i =
-                      (l = c[f]).getAttribute("data-href") ||
-                      l.getAttribute("href");
-                    if ("stylesheet" === l.rel && (i === n || i === a))
+                      (d = c[f]).getAttribute("data-href") ||
+                      d.getAttribute("href");
+                    if ("stylesheet" === d.rel && (i === n || i === a))
                       return t();
                   }
-                  var d = document.getElementsByTagName("style");
-                  for (f = 0; f < d.length; f++) {
-                    var l;
+                  var l = document.getElementsByTagName("style");
+                  for (f = 0; f < l.length; f++) {
+                    var d;
                     if (
-                      (i = (l = d[f]).getAttribute("data-href")) === n ||
+                      (i = (d = l[f]).getAttribute("data-href")) === n ||
                       i === a
                     )
                       return t();
@@ -176,7 +163,6 @@
               t.push((r[2] = n));
               var c,
                 f = document.createElement("script");
-              f.defer = true;
               (f.charset = "utf-8"),
                 (f.timeout = 120),
                 u.nc && f.setAttribute("nonce", u.nc),
@@ -187,32 +173,32 @@
                     ({}[e] || e) +
                     "." +
                     {
-                      0: "2081453c",
-                      1: "4a05c484",
-                      2: "b172c588",
-                      5: "883f461b",
-                      7: "63fbc5f9",
-                      8: "500e24db",
-                      9: "4f717e6d",
-                      10: "35772fef",
-                      11: "4ccee478",
-                      12: "a67c47ad",
-                      13: "d3f3a1b6",
-                      14: "ca47277e",
-                      15: "4d4c6d1c",
-                      16: "606b9a42",
-                      17: "39dc4ae7",
-                      18: "ad571e12",
-                      19: "11cc12e5",
-                      20: "52edaa65",
-                      21: "58a8e149",
+                      0: "772888b8",
+                      1: "bdfb150a",
+                      2: "80cc8e2a",
+                      5: "47810cc5",
+                      7: "a4616f89",
+                      8: "3d0f7a67",
+                      9: "9f5ba59f",
+                      10: "bc8cea44",
+                      11: "cf59e613",
+                      12: "00bceb8c",
+                      13: "eb9f9c08",
+                      14: "9cc2d8a2",
+                      15: "6e4a3e1b",
+                      16: "82bd1980",
+                      17: "6d299ecb",
+                      18: "a624cf88",
+                      19: "991609c8",
+                      20: "dd4e8c08",
+                      21: "020a38fa",
                     }[e] +
                     ".chunk.js"
                   );
                 })(e));
               var i = new Error();
               c = function (t) {
-                (f.onerror = f.onload = null), clearTimeout(d);
+                (f.onerror = f.onload = null), clearTimeout(l);
                 var r = a[e];
                 if (0 !== r) {
                   if (r) {
@@ -234,7 +220,7 @@
                   a[e] = void 0;
                 }
               };
-              var d = setTimeout(function () {
+              var l = setTimeout(function () {
                 c({ type: "timeout", target: f });
               }, 12e4);
               (f.onerror = f.onload = c), document.head.appendChild(f);
@@ -293,12 +279,12 @@
         var f = (this.webpackJsonpmitesh = this.webpackJsonpmitesh || []),
           i = f.push.bind(f);
         (f.push = t), (f = f.slice());
-        for (var d = 0; d < f.length; d++) t(f[d]);
-        var l = i;
+        for (var l = 0; l < f.length; l++) t(f[l]);
+        var d = i;
         r();
       })([]);
     </script>
-    <script defer src="/static/js/6.08be1489.chunk.js"></script>
-    <script src="/static/js/main.c550e3af.chunk.js"></script>
+    <script src="/static/js/6.be38f725.chunk.js"></script>
+    <script src="/static/js/main.408d51fb.chunk.js"></script>
   </body>
 </html>
