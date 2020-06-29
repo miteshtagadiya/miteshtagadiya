@@ -1,8 +1,10 @@
 import React, { Component } from "react";
-import ParticleComponent from "../ParticleComponent";
-import SelectionSort from "./SelectionSort";
-import BubbleSort from "./BubbleSort";
+
 import reactWindowSize from "react-window-size";
+import loadable from "@loadable/component";
+const ParticleComponent = loadable(() => import("../ParticleComponent"));
+const SelectionSort = loadable(() => import("./SelectionSort"));
+const BubbleSort = loadable(() => import("./BubbleSort"));
 
 class Fun extends Component {
   constructor(props) {
