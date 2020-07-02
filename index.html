@@ -153,9 +153,8 @@
                       return t();
                   }
                   var s = document.createElement("link");
-
-                  (s.rel = "preload"), (s.as = "style");
-                  (s.type = "text/css"),
+                  (s.rel = "stylesheet"),
+                    (s.type = "text/css"),
                     (s.onload = t),
                     (s.onerror = function (t) {
                       var n = (t && t.target && t.target.src) || o,
