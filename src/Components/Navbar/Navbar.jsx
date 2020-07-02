@@ -1,5 +1,13 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faUser,
+  faCode,
+  faBuilding,
+  faLaptopCode,
+  faBriefcase,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
 import { withRouter } from "react-router";
 import windowSize from "react-window-size";
 import "./Navbar.sass";
@@ -12,7 +20,7 @@ class Navbar extends Component {
 
   render() {
     let uiClass = "nav-item nav-link";
-    return this.props.windowWidth > 900 ? (
+    return (
       <nav>
         <div className="nav nav-tabs nav-fill">
           <label
@@ -23,11 +31,8 @@ class Navbar extends Component {
             }}
           >
             {/* <Link to="/"> */}
-            <FontAwesomeIcon
-              icon={["fas", "user"]}
-              style={{ marginRight: 15 }}
-            />
-            About Me
+            <FontAwesomeIcon icon={faUser} style={{ marginRight: 15 }} />
+            {this.props.windowWidth > 900 && "About Me"}
             {/* </Link> */}
           </label>
           <label
@@ -39,11 +44,8 @@ class Navbar extends Component {
               this.props.history.push("/skills");
             }}
           >
-            <FontAwesomeIcon
-              icon={["fas", "code"]}
-              style={{ marginRight: 15 }}
-            />
-            Skills
+            <FontAwesomeIcon icon={faCode} style={{ marginRight: 15 }} />
+            {this.props.windowWidth > 900 && "Skills"}
           </label>
           <label
             className={
@@ -56,11 +58,8 @@ class Navbar extends Component {
               this.props.history.push("/workexperience");
             }}
           >
-            <FontAwesomeIcon
-              icon={["fas", "building"]}
-              style={{ marginRight: 15 }}
-            />
-            Work Experience
+            <FontAwesomeIcon icon={faBuilding} style={{ marginRight: 15 }} />
+            {this.props.windowWidth > 900 && "Work Experience"}
           </label>
           <label
             className={
@@ -71,11 +70,8 @@ class Navbar extends Component {
               this.props.history.push("/projects");
             }}
           >
-            <FontAwesomeIcon
-              icon={["fas", "laptop-code"]}
-              style={{ marginRight: 15 }}
-            />
-            Projects
+            <FontAwesomeIcon icon={faLaptopCode} style={{ marginRight: 15 }} />
+            {this.props.windowWidth > 900 && "Projects"}
           </label>
           <label
             className={this.state.ui === "/fun" ? uiClass + " active" : uiClass}
@@ -84,12 +80,11 @@ class Navbar extends Component {
               this.props.history.push("/fun");
             }}
           >
-            <FontAwesomeIcon
-              icon={["fas", "briefcase"]}
-              style={{ marginRight: 15 }}
-            />
-            Fun
-            <sup style={{ padding: 10 }}>New</sup>
+            <FontAwesomeIcon icon={faBriefcase} style={{ marginRight: 15 }} />
+            {this.props.windowWidth > 900 && "Fun"}
+            {this.props.windowWidth > 900 && (
+              <sup style={{ padding: 10 }}>New</sup>
+            )}
           </label>
           <label
             className={
@@ -100,82 +95,8 @@ class Navbar extends Component {
               this.props.history.push("/contactme");
             }}
           >
-            <FontAwesomeIcon
-              icon={["fas", "envelope"]}
-              style={{ marginRight: 15 }}
-            />
-            Contact Me
-          </label>
-        </div>
-      </nav>
-    ) : (
-      <nav>
-        <div className="nav nav-tabs nav-fill">
-          <label
-            className={this.state.ui === "/" ? uiClass + " active" : uiClass}
-            onClick={() => {
-              this.setState({ ui: "/" });
-              this.props.history.push("/");
-            }}
-          >
-            {/* <Link to="/"> */}
-            <FontAwesomeIcon icon={["fas", "user"]} />
-            {/* </Link> */}
-          </label>
-          <label
-            className={
-              this.state.ui === "/skills" ? uiClass + " active" : uiClass
-            }
-            onClick={() => {
-              this.setState({ ui: "/skills" });
-              this.props.history.push("/skills");
-            }}
-          >
-            <FontAwesomeIcon icon={["fas", "code"]} />
-          </label>
-          <label
-            className={
-              this.state.ui === "/workexperience"
-                ? uiClass + " active"
-                : uiClass
-            }
-            onClick={() => {
-              this.setState({ ui: "/workexperience" });
-              this.props.history.push("/workexperience");
-            }}
-          >
-            <FontAwesomeIcon icon={["fas", "building"]} />
-          </label>
-          <label
-            className={
-              this.state.ui === "/projects" ? uiClass + " active" : uiClass
-            }
-            onClick={() => {
-              this.setState({ ui: "/projects" });
-              this.props.history.push("/projects");
-            }}
-          >
-            <FontAwesomeIcon icon={["fas", "laptop-code"]} />
-          </label>
-          <label
-            className={this.state.ui === "/fun" ? uiClass + " active" : uiClass}
-            onClick={() => {
-              this.setState({ ui: "/fun" });
-              this.props.history.push("/fun");
-            }}
-          >
-            <FontAwesomeIcon icon={["fas", "briefcase"]} />
-          </label>
-          <label
-            className={
-              this.state.ui === "/contactme" ? uiClass + " active" : uiClass
-            }
-            onClick={() => {
-              this.setState({ ui: "/contactme" });
-              this.props.history.push("/contactme");
-            }}
-          >
-            <FontAwesomeIcon icon={["fas", "envelope"]} />
+            <FontAwesomeIcon icon={faEnvelope} style={{ marginRight: 15 }} />
+            {this.props.windowWidth > 900 && "Contact Me"}
           </label>
         </div>
       </nav>
