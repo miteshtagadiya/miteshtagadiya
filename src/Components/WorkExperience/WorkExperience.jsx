@@ -1,20 +1,20 @@
 import React, { Component } from "react";
 import {
   VerticalTimeline,
-  VerticalTimelineElement
+  VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import loadable from "@loadable/component";
 import "./WorkExperience.sass";
+import { faBuilding, faCode } from "@fortawesome/free-solid-svg-icons";
 const ParticleComponent = loadable(() => import("../ParticleComponent"));
-
 
 class WorkExperience extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      chart: "Frontend"
+      chart: "Frontend",
     };
   }
 
@@ -31,7 +31,7 @@ class WorkExperience extends Component {
             date="Jan, 2018 - Present"
             icon={
               <FontAwesomeIcon
-                icon={["fas", "building"]}
+                icon={faBuilding}
                 style={{ fontSize: 30, color: "#7ef0ff" }}
               />
             }
@@ -54,17 +54,18 @@ class WorkExperience extends Component {
             <p>I am responsible for Front-End development.</p>
             <div style={{ display: "flex", marginTop: 20 }}>
               <FontAwesomeIcon
-                icon={["fas", "code"]}
+                icon={faCode}
                 style={{
                   fontSize: 20,
                   color: "#7ef0ff",
                   marginRight: 15,
-                  marginTop: 5
+                  marginTop: 5,
                 }}
               />
               <label>
-                React, Redux, Redux-Observable, MomentJs, Javascript, TypeScript, Bootstrap, AntDesigns, MaterialUI, Recharts, BizCharts, React Google
-                Charts, Next JS, React Intl, React GA.
+                React, Redux, Redux-Observable, MomentJs, Javascript,
+                TypeScript, Bootstrap, AntDesigns, MaterialUI, Recharts,
+                BizCharts, React Google Charts, Next JS, React Intl, React GA.
               </label>
             </div>
           </VerticalTimelineElement>
@@ -73,7 +74,7 @@ class WorkExperience extends Component {
             date="May, 2017 - Jul, 2017 "
             icon={
               <FontAwesomeIcon
-                icon={["fas", "building"]}
+                icon={faBuilding}
                 style={{ fontSize: 30, color: "#7ef0ff" }}
               />
             }
@@ -92,12 +93,12 @@ class WorkExperience extends Component {
             </p>
             <div style={{ display: "flex", marginTop: 20 }}>
               <FontAwesomeIcon
-                icon={["fas", "code"]}
+                icon={faCode}
                 style={{
                   fontSize: 20,
                   color: "#7ef0ff",
                   marginRight: 15,
-                  marginTop: 0
+                  marginTop: 0,
                 }}
               />
               <label>Ionic, AngularJs, CSS</label>
@@ -108,7 +109,7 @@ class WorkExperience extends Component {
             date="April, 2016 - June, 2016"
             icon={
               <FontAwesomeIcon
-                icon={["fas", "building"]}
+                icon={faBuilding}
                 style={{ fontSize: 30, color: "#7ef0ff" }}
               />
             }
@@ -131,12 +132,12 @@ class WorkExperience extends Component {
             </p>
             <div style={{ display: "flex", marginTop: 20 }}>
               <FontAwesomeIcon
-                icon={["fas", "code"]}
+                icon={faCode}
                 style={{
                   fontSize: 20,
                   color: "#7ef0ff",
                   marginRight: 15,
-                  marginTop: 0
+                  marginTop: 0,
                 }}
               />
               <label>PHP, MySql, BootStrap, HTML5, CSS3, JavaScript</label>

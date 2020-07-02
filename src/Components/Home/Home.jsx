@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGraduationCap,
+  faCalendarAlt,
+} from "@fortawesome/free-solid-svg-icons";
 import loadable from "@loadable/component";
 const ParticleComponent = loadable(() => import("../ParticleComponent"));
 
@@ -41,14 +45,14 @@ class Home extends Component {
                 </div>
                 <label style={{ fontSize: 18 }}>
                   <FontAwesomeIcon
-                    icon={["fas", "graduation-cap"]}
+                    icon={faGraduationCap}
                     style={{ color: "#7ef0ff", marginRight: 15 }}
                   />
                   Master of Science in Information Technology
                 </label>
                 <label style={{ fontSize: 18 }}>
                   <FontAwesomeIcon
-                    icon={["fas", "calendar-alt"]}
+                    icon={faCalendarAlt}
                     style={{ color: "#7ef0ff", marginRight: 25 }}
                   />
                   2016 - 2018
@@ -80,14 +84,14 @@ class Home extends Component {
                 </div>
                 <label style={{ fontSize: 18 }}>
                   <FontAwesomeIcon
-                    icon={["fas", "graduation-cap"]}
+                    icon={faGraduationCap}
                     style={{ color: "#7ef0ff", marginRight: 15 }}
                   />
                   Bachelor of Science in Information Technology
                 </label>
                 <label style={{ fontSize: 18 }}>
                   <FontAwesomeIcon
-                    icon={["fas", "calendar-alt"]}
+                    icon={faCalendarAlt}
                     style={{ color: "#7ef0ff", marginRight: 25 }}
                   />
                   2013 - 2016

@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 import { Modal } from "antd";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCalendarAlt,
+  faBook,
+  faUserFriends,
+  faCode,
+} from "@fortawesome/free-solid-svg-icons";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import ReactGA from "react-ga";
@@ -125,7 +131,7 @@ class ProjectCard extends Component {
                   <div>
                     <div style={{ display: "flex", marginTop: 20 }}>
                       <FontAwesomeIcon
-                        icon={["fas", "calendar-alt"]}
+                        icon={faCalendarAlt}
                         style={{
                           fontSize: 18,
                           color: "#7ef0ff",
@@ -139,7 +145,7 @@ class ProjectCard extends Component {
                     </div>
                     <div style={{ display: "flex", marginTop: 20 }}>
                       <FontAwesomeIcon
-                        icon={["fas", "book"]}
+                        icon={faBook}
                         style={{
                           fontSize: 18,
                           color: "#7ef0ff",
@@ -154,7 +160,7 @@ class ProjectCard extends Component {
                     {this.props.members ? (
                       <div style={{ display: "flex", marginTop: 20 }}>
                         <FontAwesomeIcon
-                          icon={["fas", "user-friends"]}
+                          icon={faUserFriends}
                           style={{
                             fontSize: 18,
                             color: "#7ef0ff",
@@ -169,7 +175,7 @@ class ProjectCard extends Component {
                     ) : null}
                     <div style={{ display: "flex", marginTop: 20 }}>
                       <FontAwesomeIcon
-                        icon={["fas", "code"]}
+                        icon={faCode}
                         style={{
                           fontSize: 18,
                           color: "#7ef0ff",

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./ContactMe.sass";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTelegramPlane } from "@fortawesome/fontawesome-free-brands";
 import loadable from "@loadable/component";
 const ParticleComponent = loadable(() => import("../ParticleComponent"));
 
@@ -62,7 +63,7 @@ class ContactMe extends Component {
                 >
                   Send
                   <FontAwesomeIcon
-                    icon={["fab", "telegram-plane"]}
+                    icon={faTelegramPlane}
                     style={{
                       color: "#7ef0ff",
                       marginBottom: -1,
