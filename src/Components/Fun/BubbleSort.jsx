@@ -61,7 +61,7 @@ class BubbleSort extends Component {
     super(props);
     this.state = {
       addtask: 0,
-      tasks: [23, 43, 12, 54, 23, 65, 12, 76, 46, 90, 14, 2, 16, 43],
+      tasks: [23, 43, 12, 54, 23],
     };
     this.updateInput = this.updateInput.bind(this);
   }
