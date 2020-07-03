@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { HashRouter, Switch, Route } from "react-router-dom";
 import loadable from "@loadable/component";
-import "./index.sass";
 const Skills = loadable(() => import("./Skills/Skills"));
 const Fun = loadable(() => import("./Fun/Fun"));
 const ContactMe = loadable(() => import("./ContactMe/ContactMe"));
