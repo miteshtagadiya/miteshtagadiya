@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/global.sass";
 import loadable from "@loadable/component";
 import windowSize from "react-window-size";
-import "./index.sass";
 const Profile = loadable(() => import("./Profile"));
 const Header = loadable(() => import("./Header"));
 
