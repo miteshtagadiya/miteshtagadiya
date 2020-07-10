@@ -1,7 +1,7 @@
 
 ## Mitesh Tagadiya
 
-Portfolio app
+Portfolio app created by ReactJs
 
 ### Demo
 [https://miteshtagadiya.js.org](https://miteshtagadiya.js.org/)
