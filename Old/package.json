@@ -1,0 +1,58 @@
+{
+  "name": "mitesh",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.18",
+    "@fortawesome/free-solid-svg-icons": "^5.8.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@loadable/component": "^5.12.0",
+    "antd": "^3.18.1",
+    "bootstrap": "^4.3.1",
+    "history": "^4.10.1",
+    "node-sass": "^4.14.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-ga": "^2.7.0",
+    "react-json-view": "^1.19.1",
+    "react-particles-js": "^2.6.0",
+    "react-rainbow-components": "^1.12.0",
+    "react-responsive-carousel": "^3.1.49",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.4.1",
+    "react-typist": "^2.0.5",
+    "react-vertical-timeline-component": "^2.3.1",
+    "react-window-size": "^1.2.2",
+    "recharts": "^1.6.1"
+  },
+  "homepage": "https://miteshtagadiya.js.org",
+  "scripts": {
+    "start": "GENERATE_SOURCEMAP=false react-scripts start && npm run delete-maps",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build && npm run delete-maps",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "delete-maps": "npm run delete-map-files && npm run delete-references-to-map-files",
+    "delete-map-files": "find ./build -name '*.map' -delete",
+    "delete-references-to-map-files": "find ./build -regex '.*\\.\\(js\\|css\\)' -exec sed -i -E '\\/[\\*\\/]#\\ssourceMappingURL=main(\\.[0-9a-f]+)?\\.(css|js)\\.map(\\*\\/)?/g' {} +"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
