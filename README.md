@@ -19,7 +19,7 @@
 <p align="left">
 <a href="https://dev.to/miteshtagadiya" target="blank"><img align="center" src="https://img.shields.io/badge/dev.to-%2308090A.svg?&style=for-the-badge&logo=dev.to" alt="miteshtagadiya" height="30" /></a>
 <a href="https://linkedin.com/in/mitesh-tagadiya-140420108" target="blank"><img align="center" src="https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin" alt="mitesh-tagadiya-140420108" height="30" /></a>
-<a href="https://stackoverflow.com/users/mitesh7172" target="blank"><img align="center" src="https://img.shields.io/badge/stackoverflow-%23F28032.svg?&style=for-the-badge&logo=stackoverflow" alt="mitesh7172" height="30" /></a>
+<a href="https://stackoverflow.com/users/6880229/mitesh7172" target="blank"><img align="center" src="https://img.shields.io/badge/stackoverflow-%23F28032.svg?&style=for-the-badge&logo=stackoverflow" alt="mitesh7172" height="30" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
