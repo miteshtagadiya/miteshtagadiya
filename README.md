@@ -29,7 +29,7 @@
 <a href="https://www.upwork.com/freelancers/miteshtagadiya" target="_blank" height="30" >
 <img src=https://img.shields.io/badge/upwork-green?&style=for-the-badge&logo=upwork&logoColor=white alt=medium style="margin-bottom: 5px;" />
 </a> 
-<a href="[https://www.upwork.com/freelancers/miteshtagadiya](https://dev.to/miteshtagadiya)" target="_blank" height="30" >
+<a href="https://dev.to/miteshtagadiya" target="_blank" height="30" >
 <img src=https://img.shields.io/badge/dev.to-black?&style=for-the-badge&logo=dev.to&logoColor=white alt=dev style="margin-bottom: 5px;" />
 </a> 
 </p>
