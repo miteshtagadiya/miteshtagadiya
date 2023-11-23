@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Mitesh Tagadiya</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=miteshtagadiya&label=Profile%20views&color=0e75b6&style=flat" alt="miteshtagadiya" /> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=miteshtagadiya&label=Profile%20views&color=0e75b6&style=flat" alt="miteshtagadiya" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=miteshtagadiya" alt="miteshtagadiya" /></a> </p>
+<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=miteshtagadiya" alt="miteshtagadiya" /></a> </p>
 
 - 👨‍💻 All of my projects are available at [https://miteshtagadiya.js.org](https://miteshtagadiya.js.org)
 
@@ -16,10 +16,22 @@
 - ⚡ Fun fact **I use tabs over spaces**
 
 <h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://dev.to/miteshtagadiya" target="blank"><img align="center" src="https://img.shields.io/badge/dev.to-%2308090A.svg?&style=for-the-badge&logo=dev.to" alt="miteshtagadiya" height="30" /></a>
-<a href="https://linkedin.com/in/mitesh-tagadiya-140420108" target="blank"><img align="center" src="https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin" alt="mitesh-tagadiya-140420108" height="30" /></a>
-<a href="https://stackoverflow.com/users/6880229/mitesh7172" target="blank"><img align="center" src="https://img.shields.io/badge/stackoverflow-%23F28032.svg?&style=for-the-badge&logo=stackoverflow" alt="mitesh7172" height="30" /></a>
+<p align="center">
+<a href="https://www.linkedin.com/in/mitesh-tagadiya-140420108/" target="_blank">
+<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+</a>
+<a href="https://github.com/miteshtagadiya" target="_blank">
+<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+</a>
+<a href="https://stackoverflow.com/users/6880229/mitesh7172" target="_blank">
+<img src=https://img.shields.io/badge/stackoverflow-%23F28032.svg?&style=for-the-badge&logo=stackoverflow&logoColor=white alt=stackoverflow style="margin-bottom: 5px;" />
+</a>
+<a href="https://www.upwork.com/freelancers/miteshtagadiya" target="_blank" height="30" >
+<img src=https://img.shields.io/badge/upwork-green?&style=for-the-badge&logo=upwork&logoColor=white alt=medium style="margin-bottom: 5px;" />
+</a> 
+<a href="[https://www.upwork.com/freelancers/miteshtagadiya](https://dev.to/miteshtagadiya)" target="_blank" height="30" >
+<img src=https://img.shields.io/badge/dev.to-black?&style=for-the-badge&logo=dev.to&logoColor=white alt=dev style="margin-bottom: 5px;" />
+</a> 
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
@@ -267,15 +279,15 @@
 
 <div align="center">
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=miteshtagadiya&show_icons=true&locale=en&layout=compact" alt="miteshtagadiya" /></p>
+<p align="center"><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=miteshtagadiya&show_icons=true&locale=en&layout=compact" alt="miteshtagadiya" /></p>
 </div>
 <br/>  
 
 <div align="center">
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=miteshtagadiya&show_icons=true&locale=en" alt="miteshtagadiya" /></p>
+<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=miteshtagadiya&show_icons=true&locale=en" alt="miteshtagadiya" /></p>
 </div>
 
 <br/>  
 <div align="center">
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=miteshtagadiya&" alt="miteshtagadiya" /></p>
+<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=miteshtagadiya&" alt="miteshtagadiya" /></p>
 </div>
