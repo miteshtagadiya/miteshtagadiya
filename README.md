@@ -32,7 +32,7 @@
 <a href="https://dev.to/miteshtagadiya" target="_blank" height="30" >
 <img src=https://img.shields.io/badge/dev.to-black?&style=for-the-badge&logo=dev.to&logoColor=white alt=dev style="margin-bottom: 5px;" />
 </a> 
-<a href="https://discord.com/users/miteshtagadiya#3687" target="_blank" height="30" >
+<a href="https://discordapp.com/users/525620540208054282" target="_blank" height="30" >
 <img src=https://img.shields.io/badge/discord-%237289da?&style=for-the-badge&logo=discord&logoColor=white alt=discord style="margin-bottom: 5px;" />
 </a> 
 </p>
