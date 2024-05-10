@@ -18,28 +18,28 @@
 <h3 align="left">Connect with me:</h3>
 <p align="center">
 <a href="https://www.linkedin.com/in/mitesh-tagadiya-140420108/" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;margin-top: 5px;" />
 </a>
 <a href="https://github.com/miteshtagadiya" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;margin-top: 5px;" />
 </a>
 <a href="https://stackoverflow.com/users/6880229/mitesh7172" target="_blank">
-<img src=https://img.shields.io/badge/stackoverflow-%23F28032.svg?&style=for-the-badge&logo=stackoverflow&logoColor=white alt=stackoverflow style="margin-bottom: 5px;" />
+<img src=https://img.shields.io/badge/stackoverflow-%23F28032.svg?&style=for-the-badge&logo=stackoverflow&logoColor=white alt=stackoverflow style="margin-bottom: 5px;margin-top: 5px;" />
 </a>
 <a href="https://www.upwork.com/freelancers/miteshtagadiya" target="_blank" height="30" >
-<img src=https://img.shields.io/badge/upwork-green?&style=for-the-badge&logo=upwork&logoColor=white alt=medium style="margin-bottom: 5px;" />
+<img src=https://img.shields.io/badge/upwork-green?&style=for-the-badge&logo=upwork&logoColor=white alt=medium style="margin-bottom: 5px;margin-top: 5px;" />
 </a> 
 <a href="https://dev.to/miteshtagadiya" target="_blank" height="30" >
-<img src=https://img.shields.io/badge/dev.to-black?&style=for-the-badge&logo=dev.to&logoColor=white alt=dev style="margin-bottom: 5px;" />
+<img src=https://img.shields.io/badge/dev.to-black?&style=for-the-badge&logo=dev.to&logoColor=white alt=dev style="margin-bottom: 5px;margin-top: 5px;" />
 </a> 
 <a href="https://discordapp.com/users/525620540208054282" target="_blank" height="30" >
-<img src=https://img.shields.io/badge/discord-%237289da?&style=for-the-badge&logo=discord&logoColor=white alt=discord style="margin-bottom: 5px;" />
+<img src=https://img.shields.io/badge/discord-%237289da?&style=for-the-badge&logo=discord&logoColor=white alt=discord style="margin-bottom: 5px;margin-top: 5px;" />
 </a> 
 <a href="https://join.skype.com/invite/vBgKXKAkxxI8" target="_blank" height="30" >
-<img src=https://img.shields.io/badge/skype-%2300aff0?&style=for-the-badge&logo=skype&logoColor=white alt=discord style="margin-bottom: 5px;" />
+<img src=https://img.shields.io/badge/skype-%2300aff0?&style=for-the-badge&logo=skype&logoColor=white alt=discord style="margin-bottom: 5px;margin-top: 5px;" />
 </a> 
 <a href="https://topmate.io/mitesh_tagadiya" target="_blank" height="30" >
-<img src=https://img.shields.io/badge/topmate-%23e44332?&style=for-the-badge&logo=topmate&logoColor=white%20alt=topmate style="margin-bottom: 5px;" />
+<img src=https://img.shields.io/badge/topmate-%23e44332?&style=for-the-badge&logo=topmate&logoColor=white%20alt=topmate style="margin-bottom: 5px;margin-top: 5px;" />
 </a> 
 </p>
 
