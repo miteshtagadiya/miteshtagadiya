@@ -43,6 +43,7 @@
 <img src=https://img.shields.io/badge/topmate-%23e44332?&style=for-the-badge&logo=topmate&logoColor=white%20alt=topmate style="margin-bottom: 5px;margin-top: 5px;" />
 </a> 
 </p>
+  <hr />
 
 <h3 align="left">Languages and Tools:</h3>
 <a href="https://reactjs.org/" target="_blank"
@@ -280,25 +281,78 @@
     style="margin: 10px"
   />
 </a>
+  <hr />
 
 
 
 <h3 align="left">Support:</h3>
 <p><a href="https://www.buymeacoffee.com/miteshtagap"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="miteshtagap" /></a></p><br/><br/>
 <br/>  
+  <hr />
 
-
+<!-- snake graph -->
 <div align="center">
-
-<p align="center"><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=miteshtagadiya&show_icons=true&locale=en&layout=compact" alt="miteshtagadiya" /></p>
+  <h2>🐍 Snake eating my contribution 🐍</h2>
+  <br />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/miteshtagadiya/miteshtagadiya/blob/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github.com/miteshtagadiya/miteshtagadiya/blob/output/github-contribution-grid-snake.svg" />
+    <img src="https://github.com/miteshtagadiya/miteshtagadiya/blob/output/github-contribution-grid-snake.svg" alt="github-snake" />
+  </picture>
+  <br />
+  <br />
+  <br />
 </div>
-<br/>  
 
-<div align="center">
-<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=miteshtagadiya&show_icons=true&locale=en" alt="miteshtagadiya" /></p>
-</div>
+  <hr />
 
-<br/>  
-<div align="center">
-<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=miteshtagadiya&" alt="miteshtagadiya" /></p>
-</div>
+
+  <!-- stats -->
+<h2 align="center">⚡ Stats ⚡</h2>
+<br />
+<p align=center>
+<!-- first row -->
+  <div align=center>
+  <!-- streak stats -->
+    <a href="https://github.com/denvercoder1/github-readme-streak-stats" title="Go to Source">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=miteshtagadiya&theme=react&hide_border=true" />
+        <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=miteshtagadiya&theme=default&border=61dafb" />
+        <img align="left" width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=miteshtagadiya&theme=default&border=61dafb" alt="miteshtagadiya's streak stats" />
+      </picture>
+    </a>
+  <!-- github stats -->
+    <a href="https://github.com/anuraghazra/github-readme-stats" title="Go to Source">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=miteshtagadiya&show_icons=true&theme=react&hide_border=true" />
+        <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github-readme-stats.vercel.app/api?username=miteshtagadiya&show_icons=true&theme=default&border_color=61dafb" />
+        <img align="right" width=390 src="https://github-readme-stats.vercel.app/api?username=miteshtagadiya&show_icons=true&theme=default&border_color=61dafb" alt="miteshtagadiya's github stats" />
+      </picture>
+    </a>
+  </div>
+  <!-- space -->
+  <br /><br /><br /><br /><br /><br /><br /><br /><br />
+<!-- second row -->
+  <div align=center>
+  <!-- language stats -->
+    <a href="https://github.com/anuraghazra/github-readme-stats" title="Go to Source">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=miteshtagadiya&langs_count=8&theme=react&layout=compact&border_color=61dafb&hide_border=true" />
+        <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=miteshtagadiya&langs_count=8&layout=compact&border_color=61dafb" />
+        <img align="center" width=325 src="https://github-readme-stats.vercel.app/api/top-langs/?username=miteshtagadiya&langs_count=8&layout=compact&border_color=61dafb" alt="sanidhyy's language stats" />
+      </picture>
+    </a>
+  </div>
+  <!-- spaces -->
+  <br />
+  <br />
+  <br />
+  <!-- contribution graph -->
+  <a href="https://github.com/Ashutosh00710/github-readme-activity-graph" title="Go to Source">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=miteshtagadiya&theme=react-dark" />
+      <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=miteshtagadiya&bg_color=ffffff&color=708090&line=24292e&point=24292e&area=true&hide_border=true" />
+      <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=miteshtagadiya&bg_color=ffffff&color=708090&line=24292e&point=24292e&area=true&hide_border=true" alt="sanidhyy's contribution graph" />
+    </picture>
+  </a>
+</p>
