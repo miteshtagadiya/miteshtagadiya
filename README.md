@@ -1,4 +1,5 @@
-<h1 align="center">Hi 👋, I'm Mitesh Tagadiya</h1>
+<h1 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&pause=1000&color=3229BD&center=true&width=600&lines=Hi+There+%F0%9F%91%8B%2C+Myself+Mitesh+Tagadiya!!!" alt="Typing SVG" /></a>
+</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=miteshtagadiya&label=Profile%20views&color=0e75b6&style=flat" alt="miteshtagadiya" /> </p>
@@ -285,6 +286,7 @@
 <h3 align="left">Support:</h3>
 <p><a href="https://www.buymeacoffee.com/miteshtagap"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="miteshtagap" /></a></p><br/><br/>
 <br/>  
+
 
 <div align="center">
 
