@@ -57,11 +57,9 @@ function ProjectCard({ project }) {
           {project.tags.map((tag, index) => {
             return (
               <li key={tag}>
-                <Link href={`/projects/tag/${kebabCase(tag)}`}>
-                  <div className="m-1 rounded-lg text-sm bg-fun-pink-dark py-1 px-2 cursor-pointer hover:opacity-75">
-                    {tag}
-                  </div>
-                </Link>
+                <div className="m-1 rounded-lg text-sm bg-fun-pink-dark py-1 px-2 hover:opacity-75">
+                  {tag}
+                </div>
               </li>
             );
           })}

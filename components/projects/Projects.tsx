@@ -1,8 +1,5 @@
 import React from "react";
 import projects from "@/data/content/projects";
-import { kebabCase } from "@/utils/utils";
-import Link from "next/link";
-import Image from "next/image";
 import ProjectCard from "./ProjectCard";
 
 function Projects({ overwriteProjects }) {
