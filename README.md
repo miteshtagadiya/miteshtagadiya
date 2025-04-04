@@ -2,7 +2,10 @@
 </h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=miteshtagadiya&label=Profile%20views&color=0e75b6&style=flat" alt="miteshtagadiya" /> </p>
+<p align="center">
+  <img style="display: flex;" src="https://komarev.com/ghpvc/?username=miteshtagadiya&label=Profile%20views&color=0e75b6&style=flat" alt="miteshtagadiya" />
+  <sup>post Nov 21, 2023</sup>
+</p>
 
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=miteshtagadiya" alt="miteshtagadiya" /></a> </p>
 
