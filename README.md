@@ -52,6 +52,7 @@
     src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg"
     alt="React"
     height="50"
+    width="50"
 /></a>
 <a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank"
   ><img
@@ -59,6 +60,7 @@
     src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg"
     alt="Bootstrap"
     height="50"
+    width="50"
 /></a>
 <a href="https://www.w3schools.com/css/" target="_blank"
   ><img
@@ -66,6 +68,7 @@
     src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg"
     alt="CSS3"
     height="50"
+    width="50"
 /></a>
 <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"
   ><img
@@ -73,6 +76,7 @@
     src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg"
     alt="HTML5"
     height="50"
+    width="50"
 /></a>
 <a href="https://www.electronjs.org/" target="_blank"
   ><img
@@ -80,6 +84,7 @@
     src="https://profilinator.rishav.dev/skills-assets/electron-original.svg"
     alt="Electron"
     height="50"
+    width="50"
 /></a>
 <a href="https://www.javascript.com/" target="_blank"
   ><img
@@ -87,6 +92,7 @@
     src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg"
     alt="JavaScript"
     height="50"
+    width="50"
 /></a>
 <a href="https://www.typescriptlang.org/" target="_blank"
   ><img
@@ -94,6 +100,7 @@
     src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg"
     alt="TypeScript"
     height="50"
+    width="50"
 /></a>
 <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank"
   ><img
@@ -101,6 +108,7 @@
     src="https://profilinator.rishav.dev/skills-assets/adobe_illustrator-icon.svg"
     alt="Illustrator"
     height="50"
+    width="50"
 /></a>
 <a href="https://www.chartjs.org/" target="_blank"
   ><img
@@ -108,6 +116,7 @@
     src="https://profilinator.rishav.dev/skills-assets/logo-title.svg"
     alt="Chart.js"
     height="50"
+    width="50"
 /></a>
 <a href="https://redux.js.org/" target="_blank"
   ><img
@@ -115,6 +124,7 @@
     src="https://profilinator.rishav.dev/skills-assets/redux-original.svg"
     alt="Redux"
     height="50"
+    width="50"
 /></a>
 <a href="https://github.com/" target="_blank"
   ><img
@@ -122,6 +132,7 @@
     src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg"
     alt="Git"
     height="50"
+    width="50"
 /></a>
 <a href="https://www.adobe.com/in/products/xd.html" target="_blank"
   ><img
@@ -129,6 +140,7 @@
     src="https://profilinator.rishav.dev/skills-assets/adobexd.png"
     alt="Adobe XD"
     height="50"
+    width="50"
 /></a>
 <a href="https://www.tailwindcss.com/" target="_blank"
   ><img
@@ -136,6 +148,7 @@
     src="https://profilinator.rishav.dev/skills-assets/tailwindcss.svg"
     alt="Tailwind CSS"
     height="50"
+    width="50"
 /></a>
 <a href="https://mui.com/" target="_blank"
   ><img
@@ -143,6 +156,7 @@
     src="https://profilinator.rishav.dev/skills-assets/mui.png"
     alt="Material UI"
     height="50"
+    width="50"
 /></a>
 <a href="https://styled-components.com/" target="_blank"
   ><img
@@ -150,6 +164,7 @@
     src="https://profilinator.rishav.dev/skills-assets/styled-components.png"
     alt="Styled Components"
     height="50"
+    width="50"
 /></a>
 <a href="https://nextjs.org/" target="_blank"
   ><img
@@ -157,6 +172,7 @@
     src="https://profilinator.rishav.dev/skills-assets/nextjs.png"
     alt="NextJS"
     height="50"
+    width="50"
 /></a>
 <a href="https://sass-lang.com/" target="_blank"
   ><img
@@ -164,6 +180,7 @@
     src="https://profilinator.rishav.dev/skills-assets/sass-original.svg"
     alt="Sass"
     height="50"
+    width="50"
 /></a>
 <a href="https://www.linux.org/" target="_blank"
   ><img
@@ -171,6 +188,7 @@
     src="https://profilinator.rishav.dev/skills-assets/linux-original.svg"
     alt="Linux"
     height="50"
+    width="50"
 /></a>
 <a href="https://www.figma.com/" target="_blank"
   ><img
@@ -178,6 +196,7 @@
     src="https://profilinator.rishav.dev/skills-assets/figma-icon.svg"
     alt="Figma"
     height="50"
+    width="50"
 /></a>
 <a href="https://about.gitlab.com/" target="_blank"
   ><img
@@ -185,6 +204,7 @@
     src="https://profilinator.rishav.dev/skills-assets/gitlab.svg"
     alt="GitLab"
     height="50"
+    width="50"
 /></a>
 <a href="https://chakra-ui.com/" target="_blank"
   ><img
@@ -192,6 +212,7 @@
     src="https://profilinator.rishav.dev/skills-assets/chakraui.png"
     alt="Chakra UI"
     height="50"
+    width="50"
 /></a>
 <a href="https://babeljs.io/" target="_blank" rel="noreferrer">
   <img
@@ -199,6 +220,7 @@
     alt="babel"
     height="50"
     style="margin: 10px"
+    width="50"
   />
 </a>
 <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">
@@ -206,6 +228,7 @@
     src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg"
     alt="bash"
     height="50"
+    width="50"
     style="margin: 10px"
   />
 </a>
@@ -214,6 +237,7 @@
     src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
     alt="figma"
     height="50"
+    width="50"
     style="margin: 10px"
   />
 </a>
@@ -222,6 +246,7 @@
     src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
     alt="firebase"
     height="50"
+    width="50"
     style="margin: 10px"
   />
 </a>
@@ -230,6 +255,7 @@
     src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg"
     alt="gcp"
     height="50"
+    width="50"
     style="margin: 10px"
   />
 </a>
@@ -238,6 +264,7 @@
     src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
     alt="git"
     height="50"
+    width="50"
     style="margin: 10px"
   />
 </a>
@@ -246,6 +273,7 @@
     src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg"
     alt="heroku"
     height="50"
+    width="50"
     style="margin: 10px"
   />
 </a>
@@ -258,6 +286,7 @@
     src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg"
     alt="illustrator"
     height="50"
+    width="50"
     style="margin: 10px"
   />
 </a>
@@ -266,6 +295,7 @@
     src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"
     alt="jenkins"
     height="50"
+    width="50"
     style="margin: 10px"
   />
 </a>
@@ -278,6 +308,7 @@
     src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg"
     alt="xd"
     height="50"
+    width="50"
     style="margin: 10px"
   />
 </a>
