@@ -1,389 +1,223 @@
-<h1 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&pause=1000&color=3229BD&center=true&width=600&lines=Hi+There+%F0%9F%91%8B%2C+Myself+Mitesh+Tagadiya!!!" alt="Typing SVG" /></a>
+<h1 align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=3229BD&center=true&vCenter=true&width=650&lines=Hi+There+%F0%9F%91%8B%2C+I'm+Mitesh+Tagadiya;AI-first+Frontend+Engineer+%F0%9F%A4%96;React+%26+Next.js+Specialist+%E2%9A%9B%EF%B8%8F;Building+LLM-powered+Web+Apps+%E2%9C%A8;Available+for+Freelance+Work+%F0%9F%92%BC" alt="Typing SVG" />
+  </a>
 </h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+
+<!--
+  SEO / discoverability keywords (kept in real text so crawlers and GitHub search can index them):
+  Mitesh Tagadiya, AI-first frontend engineer, freelance frontend developer India,
+  React developer, Next.js developer, TypeScript, LLM integration,
+  OpenAI, Anthropic Claude, Vercel AI SDK, LangChain, RAG, AI agents,
+  freelance web developer, hire react developer, remote developer India.
+-->
+
+## Mitesh Tagadiya — AI-first Frontend Engineer (React · Next.js · TypeScript)
+
+I'm an **AI-first Frontend Engineer** based in **India 🇮🇳** with 8+ years of experience shipping production-grade web apps in **React, Next.js, and TypeScript**. I specialize in building **LLM-powered products**, chatbots, AI agents, and AI-assisted SaaS dashboards and I use AI tooling (Cursor, Claude, ChatGPT, Copilot) deeply in my day-to-day workflow to ship faster without sacrificing quality.
+
+> 💼 **Open to freelance & contract work — React / Next.js / AI integrations.** &nbsp; 📬 Reach out at **[miteshtagadiya@gmail.com](mailto:miteshtagadiya@gmail.com)** or book a call on **[Topmate](https://topmate.io/mitesh_tagadiya)**.
 
 <p align="center">
-  <img style="display: flex;" src="https://komarev.com/ghpvc/?username=miteshtagadiya&label=Profile%20views&color=0e75b6&style=flat" alt="miteshtagadiya" />
-  <sup>post Nov 21, 2023</sup>
+  <a href="mailto:miteshtagadiya@gmail.com">
+    <img src="https://img.shields.io/badge/Available%20for-Freelance-brightgreen?style=for-the-badge&logo=upwork&logoColor=white" alt="Available for Freelance" />
+  </a>
+  <a href="mailto:miteshtagadiya@gmail.com">
+    <img src="https://img.shields.io/badge/Open%20to-Contract%20Work-blue?style=for-the-badge&logo=googlemeet&logoColor=white" alt="Open to Contract Work" />
+  </a>
+  <a href="https://topmate.io/mitesh_tagadiya">
+    <img src="https://img.shields.io/badge/Book%20a-Consultation-E44332?style=for-the-badge&logo=topmate&logoColor=white" alt="Book a Consultation" />
+  </a>
 </p>
 
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=miteshtagadiya" alt="miteshtagadiya" /></a> </p>
-
-- 👨‍💻 All of my projects are available at [https://miteshtagadiya.js.org](https://miteshtagadiya.js.org)
-
-- 💬 Ask me about **ReactJs, NextJS**
-
-- 📫 How to reach me **miteshtagadiya@gmail.com**
-
-- 📄 Know about my experiences [https://drive.google.com/file/d/1qFXjZqTDow29I2qrH1PfacNd77W9GcXa/view?usp=sharing](https://drive.google.com/file/d/1qFXjZqTDow29I2qrH1PfacNd77W9GcXa/view?usp=sharing)
-
-- ⚡ Fun fact **I use tabs over spaces**
-
-<h3 align="left">Connect with me:</h3>
 <p align="center">
-<a href="https://www.linkedin.com/in/mitesh-tagadiya-140420108/" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;margin-top: 5px;" />
-</a>
-<a href="https://github.com/miteshtagadiya" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;margin-top: 5px;" />
-</a>
-<a href="https://stackoverflow.com/users/6880229/mitesh7172" target="_blank">
-<img src=https://img.shields.io/badge/stackoverflow-%23F28032.svg?&style=for-the-badge&logo=stackoverflow&logoColor=white alt=stackoverflow style="margin-bottom: 5px;margin-top: 5px;" />
-</a>
-<a href="https://dev.to/miteshtagadiya" target="_blank" height="30" >
-<img src=https://img.shields.io/badge/dev.to-black?&style=for-the-badge&logo=dev.to&logoColor=white alt=dev style="margin-bottom: 5px;margin-top: 5px;" />
-</a> 
-<a href="https://discordapp.com/users/525620540208054282" target="_blank" height="30" >
-<img src=https://img.shields.io/badge/discord-%237289da?&style=for-the-badge&logo=discord&logoColor=white alt=discord style="margin-bottom: 5px;margin-top: 5px;" />
-</a> 
-<a href="https://join.skype.com/invite/vBgKXKAkxxI8" target="_blank" height="30" >
-<img src=https://img.shields.io/badge/skype-%2300aff0?&style=for-the-badge&logo=skype&logoColor=white alt=discord style="margin-bottom: 5px;margin-top: 5px;" />
-</a> 
-<a href="https://topmate.io/mitesh_tagadiya" target="_blank" height="30" >
-<img src=https://img.shields.io/badge/topmate-%23e44332?&style=for-the-badge&logo=topmate&logoColor=white%20alt=topmate style="margin-bottom: 5px;margin-top: 5px;" />
-</a> 
+  <img src="https://komarev.com/ghpvc/?username=miteshtagadiya&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+  <a href="https://github.com/miteshtagadiya?tab=followers">
+    <img src="https://img.shields.io/github/followers/miteshtagadiya?label=Followers&style=flat&color=0e75b6" alt="GitHub followers" />
+  </a>
+  <a href="https://github.com/miteshtagadiya">
+    <img src="https://img.shields.io/github/stars/miteshtagadiya?label=Stars&style=flat&color=0e75b6" alt="GitHub stars" />
+  </a>
 </p>
-  <hr />
 
-<h3 align="left">Languages and Tools:</h3>
-<a href="https://reactjs.org/" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg"
-    alt="React"
-    height="50"
-    width="50"
-/></a>
-<a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg"
-    alt="Bootstrap"
-    height="50"
-    width="50"
-/></a>
-<a href="https://www.w3schools.com/css/" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg"
-    alt="CSS3"
-    height="50"
-    width="50"
-/></a>
-<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg"
-    alt="HTML5"
-    height="50"
-    width="50"
-/></a>
-<a href="https://www.electronjs.org/" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/electron-original.svg"
-    alt="Electron"
-    height="50"
-    width="50"
-/></a>
-<a href="https://www.javascript.com/" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg"
-    alt="JavaScript"
-    height="50"
-    width="50"
-/></a>
-<a href="https://www.typescriptlang.org/" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg"
-    alt="TypeScript"
-    height="50"
-    width="50"
-/></a>
-<a href="https://www.adobe.com/in/products/illustrator.html" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/adobe_illustrator-icon.svg"
-    alt="Illustrator"
-    height="50"
-    width="50"
-/></a>
-<a href="https://www.chartjs.org/" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/logo-title.svg"
-    alt="Chart.js"
-    height="50"
-    width="50"
-/></a>
-<a href="https://redux.js.org/" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/redux-original.svg"
-    alt="Redux"
-    height="50"
-    width="50"
-/></a>
-<a href="https://github.com/" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg"
-    alt="Git"
-    height="50"
-    width="50"
-/></a>
-<a href="https://www.adobe.com/in/products/xd.html" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/adobexd.png"
-    alt="Adobe XD"
-    height="50"
-    width="50"
-/></a>
-<a href="https://www.tailwindcss.com/" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/tailwindcss.svg"
-    alt="Tailwind CSS"
-    height="50"
-    width="50"
-/></a>
-<a href="https://mui.com/" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/mui.png"
-    alt="Material UI"
-    height="50"
-    width="50"
-/></a>
-<a href="https://styled-components.com/" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/styled-components.png"
-    alt="Styled Components"
-    height="50"
-    width="50"
-/></a>
-<a href="https://nextjs.org/" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/nextjs.png"
-    alt="NextJS"
-    height="50"
-    width="50"
-/></a>
-<a href="https://sass-lang.com/" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/sass-original.svg"
-    alt="Sass"
-    height="50"
-    width="50"
-/></a>
-<a href="https://www.linux.org/" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/linux-original.svg"
-    alt="Linux"
-    height="50"
-    width="50"
-/></a>
-<a href="https://www.figma.com/" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/figma-icon.svg"
-    alt="Figma"
-    height="50"
-    width="50"
-/></a>
-<a href="https://about.gitlab.com/" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/gitlab.svg"
-    alt="GitLab"
-    height="50"
-    width="50"
-/></a>
-<a href="https://chakra-ui.com/" target="_blank"
-  ><img
-    style="margin: 10px"
-    src="https://profilinator.rishav.dev/skills-assets/chakraui.png"
-    alt="Chakra UI"
-    height="50"
-    width="50"
-/></a>
-<a href="https://babeljs.io/" target="_blank" rel="noreferrer">
-  <img
-    src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg"
-    alt="babel"
-    height="50"
-    style="margin: 10px"
-    width="50"
-  />
-</a>
-<a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer">
-  <img
-    src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg"
-    alt="bash"
-    height="50"
-    width="50"
-    style="margin: 10px"
-  />
-</a>
-<a href="https://www.figma.com/" target="_blank" rel="noreferrer">
-  <img
-    src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
-    alt="figma"
-    height="50"
-    width="50"
-    style="margin: 10px"
-  />
-</a>
-<a href="https://firebase.google.com/" target="_blank" rel="noreferrer">
-  <img
-    src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
-    alt="firebase"
-    height="50"
-    width="50"
-    style="margin: 10px"
-  />
-</a>
-<a href="https://cloud.google.com" target="_blank" rel="noreferrer">
-  <img
-    src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg"
-    alt="gcp"
-    height="50"
-    width="50"
-    style="margin: 10px"
-  />
-</a>
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-  <img
-    src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
-    alt="git"
-    height="50"
-    width="50"
-    style="margin: 10px"
-  />
-</a>
-<a href="https://heroku.com" target="_blank" rel="noreferrer">
-  <img
-    src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg"
-    alt="heroku"
-    height="50"
-    width="50"
-    style="margin: 10px"
-  />
-</a>
-<a
-  href="https://www.adobe.com/in/products/illustrator.html"
-  target="_blank"
-  rel="noreferrer"
->
-  <img
-    src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg"
-    alt="illustrator"
-    height="50"
-    width="50"
-    style="margin: 10px"
-  />
-</a>
-<a href="https://www.jenkins.io" target="_blank" rel="noreferrer">
-  <img
-    src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"
-    alt="jenkins"
-    height="50"
-    width="50"
-    style="margin: 10px"
-  />
-</a>
-<a
-  href="https://www.adobe.com/products/xd.html"
-  target="_blank"
-  rel="noreferrer"
->
-  <img
-    src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg"
-    alt="xd"
-    height="50"
-    width="50"
-    style="margin: 10px"
-  />
-</a>
-  <hr />
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=header&text=&animation=twinkling" alt="banner" />
+</p>
 
+---
 
+### 🧑‍💻 About Me
 
-<h3 align="left">Support:</h3>
-<p><a href="https://www.buymeacoffee.com/miteshtagap"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="miteshtagap" /></a></p><br/><br/>
-<br/>  
-  <hr />
+- 🤖 **AI-first Frontend Engineer** — I build LLM-powered products and integrate OpenAI, Claude, and open-source models into real apps
+- ⚛️ **Frontend specialist** — React, Next.js, TypeScript, TailwindCSS, with solid Node.js on the backend
+- 🧩 **Full delivery** — from product discovery and UI/UX to shipping, monitoring, and iteration
+- 🌍 **Remote-friendly** — working with startups and teams across the US, EU, UK, Jordan, South Korea, India and across the Globe.
+- 🔭 Portfolio: **[miteshtagadiya.js.org](https://miteshtagadiya.js.org)**
+- 📫 Email: **miteshtagadiya@gmail.com**
+- ⚡ Fun fact: **I use tabs over spaces**
 
-<!-- snake graph -->
-<div align="center">
-  <h2>🐍 Snake eating my contribution 🐍</h2>
-  <br />
+---
+
+### 💼 Freelance Services — What I Can Build for You
+
+If you're a **founder, agency, or product team** looking to ship fast, here's where I can help:
+
+- 🚀 **AI-powered web apps** — chatbots, RAG over your docs/data, AI agents, copilots, semantic search
+- 🧱 **Next.js / React products** — marketing sites, SaaS dashboards, admin panels, customer portals
+- 🔌 **LLM integrations** — OpenAI, Anthropic Claude, Vercel AI SDK, LangChain, pgvector, streaming UIs
+- 🎨 **UI/UX implementation** — pixel-perfect Figma → production, design systems, accessibility
+- ⚙️ **Performance & refactoring** — Core Web Vitals, SSR/ISR, bundle optimization, legacy React upgrades
+- 🔁 **AI-assisted team enablement** — setting up Cursor, Copilot, and LLM workflows for dev teams
+
+📩 **Let's talk** → [miteshtagadiya@gmail.com](mailto:miteshtagadiya@gmail.com) &nbsp;|&nbsp; 🗓️ **Book a slot** → [Topmate](https://topmate.io/mitesh_tagadiya) &nbsp;|&nbsp; 💬 **DM me** → [LinkedIn](https://www.linkedin.com/in/mitesh-tagadiya-140420108/)
+
+---
+
+### 🌐 Connect with me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/mitesh-tagadiya-140420108/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/miteshtagadiya" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://stackoverflow.com/users/6880229/mitesh7172" target="_blank">
+    <img src="https://img.shields.io/badge/Stack%20Overflow-%23F48024.svg?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="Stack Overflow" />
+  </a>
+  <a href="https://dev.to/miteshtagadiya" target="_blank">
+    <img src="https://img.shields.io/badge/DEV.to-%230A0A0A.svg?style=for-the-badge&logo=dev.to&logoColor=white" alt="Dev.to" />
+  </a>
+  <a href="https://topmate.io/mitesh_tagadiya" target="_blank">
+    <img src="https://img.shields.io/badge/Topmate-%23E44332.svg?style=for-the-badge&logo=topmate&logoColor=white" alt="Topmate" />
+  </a>
+  <a href="mailto:miteshtagadiya@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
+
+---
+
+### 🤖 AI & LLM Tooling
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=openai,anthropic,huggingface,pytorch,tensorflow,langchain,vercel,supabase,postgres" alt="AI / LLM Stack" />
+  </a>
+</p>
+
+<p align="center">
+  <strong>OpenAI · Anthropic Claude · Vercel AI SDK · Cursor · GitHub Copilot</strong>
+</p>
+
+### 🛠️ Languages & Tools
+
+**Languages**
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ts,js,html,css,sass,bash,py" alt="Languages" />
+  </a>
+</p>
+
+**Frameworks & Libraries**
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,redux,electron,tailwind,bootstrap,materialui,styledcomponents" alt="Frameworks" />
+  </a>
+</p>
+
+**Tools & Platforms**
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,github,gitlab,vscode,docker,linux,firebase,gcp,vercel,netlify,jenkins,figma" alt="Tools" />
+  </a>
+</p>
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats" title="Go to Source">
+    <img width="48%" src="https://github-readme-stats.vercel.app/api?username=miteshtagadiya&show_icons=true&theme=react&hide_border=true&count_private=true" alt="Mitesh's GitHub stats" />
+  </a>
+  <a href="https://git.io/streak-stats" title="Go to Source">
+    <img width="48%" src="https://streak-stats.demolab.com?user=miteshtagadiya&theme=react&hide_border=true" alt="Mitesh's streak stats" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats" title="Go to Source">
+    <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=miteshtagadiya&langs_count=8&layout=compact&theme=react&hide_border=true" alt="Top Languages" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Ashutosh00710/github-readme-activity-graph" title="Go to Source">
+    <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=miteshtagadiya&theme=react-dark&hide_border=true" alt="Mitesh's contribution graph" />
+  </a>
+</p>
+
+---
+
+### 🐍 Snake Eating My Contributions
+
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/miteshtagadiya/miteshtagadiya/blob/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github.com/miteshtagadiya/miteshtagadiya/blob/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/miteshtagadiya/miteshtagadiya/blob/output/github-contribution-grid-snake.svg" />
     <img src="https://github.com/miteshtagadiya/miteshtagadiya/blob/output/github-contribution-grid-snake.svg" alt="github-snake" />
   </picture>
-  <br />
-  <br />
-  <br />
-</div>
+</p>
 
-  <hr />
+---
 
+### 💬 Hire Me
 
-  <!-- stats -->
-<h2 align="center">⚡ Stats ⚡</h2>
-<br />
-<p align=center>
-<!-- first row -->
-  <div align=center>
-  <!-- streak stats -->
-    <a href="https://github.com/denvercoder1/github-readme-streak-stats" title="Go to Source">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=miteshtagadiya&theme=react&hide_border=true" />
-        <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=miteshtagadiya&theme=default&border=61dafb" />
-        <img align="left" width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=miteshtagadiya&theme=default&border=61dafb" alt="miteshtagadiya's streak stats" />
-      </picture>
-    </a>
-  <!-- github stats -->
-    <a href="https://github.com/anuraghazra/github-readme-stats" title="Go to Source">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=miteshtagadiya&show_icons=true&theme=react&hide_border=true" />
-        <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github-readme-stats.vercel.app/api?username=miteshtagadiya&show_icons=true&theme=default&border_color=61dafb" />
-        <img align="right" width=390 src="https://github-readme-stats.vercel.app/api?username=miteshtagadiya&show_icons=true&theme=default&border_color=61dafb" alt="miteshtagadiya's github stats" />
-      </picture>
-    </a>
-  </div>
-  <!-- space -->
-  <br /><br /><br /><br /><br /><br /><br /><br /><br />
-<!-- second row -->
-  <div align=center>
-  <!-- language stats -->
-    <a href="https://github.com/anuraghazra/github-readme-stats" title="Go to Source">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=miteshtagadiya&langs_count=8&theme=react&layout=compact&border_color=61dafb&hide_border=true" />
-        <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=miteshtagadiya&langs_count=8&layout=compact&border_color=61dafb" />
-        <img align="center" width=325 src="https://github-readme-stats.vercel.app/api/top-langs/?username=miteshtagadiya&langs_count=8&layout=compact&border_color=61dafb" alt="sanidhyy's language stats" />
-      </picture>
-    </a>
-  </div>
-  <!-- spaces -->
-  <br />
-  <br />
-  <br />
-  <!-- contribution graph -->
-  <a href="https://github.com/Ashutosh00710/github-readme-activity-graph" title="Go to Source">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=miteshtagadiya&theme=react-dark" />
-      <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=miteshtagadiya&bg_color=ffffff&color=708090&line=24292e&point=24292e&area=true&hide_border=true" />
-      <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=miteshtagadiya&bg_color=ffffff&color=708090&line=24292e&point=24292e&area=true&hide_border=true" alt="sanidhyy's contribution graph" />
-    </picture>
+<p align="center">
+  <strong>Looking for a reliable AI-first frontend engineer for your next project?</strong>
+</p>
+
+<p align="center">
+  I'm available for <strong>freelance, contract, and part-time</strong> engagements. <br/>
+  Whether it's a <em>Next.js MVP</em>, an <em>LLM-powered feature</em>, or an <em>end-to-end product build</em>, let's ship it.
+</p>
+
+<p align="center">
+  <a href="mailto:miteshtagadiya@gmail.com">
+    <img src="https://img.shields.io/badge/Email%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Me" />
   </a>
+  <a href="https://topmate.io/mitesh_tagadiya">
+    <img src="https://img.shields.io/badge/Book%20a%20Call-E44332?style=for-the-badge&logo=topmate&logoColor=white" alt="Book a Call" />
+  </a>
+  <a href="https://www.linkedin.com/in/mitesh-tagadiya-140420108/">
+    <img src="https://img.shields.io/badge/Message%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Message on LinkedIn" />
+  </a>
+</p>
+
+---
+
+### ☕ Support
+
+<p align="center">
+  If my open-source work has helped you, a small tip keeps the side-projects alive.
+</p>
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/miteshtagap" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Buy Me A Coffee" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <em>"First, solve the problem. Then, write the code." - John Johnson</em>
+</p>
+
+<p align="center">
+  ⭐️ From <a href="https://github.com/miteshtagadiya">Mitesh Tagadiya</a> — AI-first Frontend Engineer · Freelance React & Next.js Developer · India 🇮🇳
 </p>
