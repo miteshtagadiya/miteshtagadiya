@@ -8,7 +8,7 @@ export const metadata = {
   description:
     "Let's collaborate! Reach out to discuss projects, opportunities, or just to say hello. I'm excited to connect and explore potential collaborations in the world of web development and beyond.",
   alternates: {
-    canonical: "https://miteshtagadiya.js.org/projects"
+    canonical: "https://miteshtagadiya.js.org/contact"
   },
   openGraph: {
     title: "Get in Touch - Connect with Me - Mitesh Tagadiya",
