@@ -1,7 +1,7 @@
 module.exports = {
   output: "export", // comment this line while development
   assetPrefix: "/",
-  exportTrailingSlash: true, // comment this line while development
+  trailingSlash: true, // comment this line while development
   basePath: "",
   // trailingSlash: true,
   swcMinify: true,
