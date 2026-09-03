@@ -9,14 +9,16 @@
   Mitesh Tagadiya, AI-first frontend engineer, freelance frontend developer India,
   React developer, Next.js developer, TypeScript, LLM integration,
   OpenAI, Anthropic Claude, Vercel AI SDK, LangChain, RAG, AI agents,
+  prompt engineering, AI model training, AI evaluation, model evolution,
+  improving AI outputs, AI-driven products, AI product engineer,
   freelance web developer, hire react developer, remote developer India.
 -->
 
-## Mitesh Tagadiya — AI-first Frontend Engineer (React · Next.js · TypeScript)
+## Mitesh Tagadiya - AI-first Frontend Engineer (React · Next.js · TypeScript · LLMs)
 
-I'm an **AI-first Frontend Engineer** based in **India 🇮🇳** with 8+ years of experience shipping production-grade web apps in **React, Next.js, and TypeScript**. I specialize in building **LLM-powered products**, chatbots, AI agents, and AI-assisted SaaS dashboards and I use AI tooling (Cursor, Claude, ChatGPT, Copilot) deeply in my day-to-day workflow to ship faster without sacrificing quality.
+I'm an **AI-first Frontend Engineer** based in **India 🇮🇳** with 8+ years of experience shipping production-grade web apps in **React, Next.js, and TypeScript**. I specialize in **AI/LLM integration**, **AI-driven products**, **prompt engineering**, **model evaluation & training loops**, and turning raw model capability into reliable product UX - chatbots, agents, copilots, and AI-assisted SaaS. I use AI tooling (Cursor, Claude, ChatGPT, Copilot) deeply in my day-to-day workflow to ship faster without sacrificing quality.
 
-> 💼 **Open to freelance & contract work — React / Next.js / AI integrations.** &nbsp; 📬 Reach out at **[miteshtagadiya@gmail.com](mailto:miteshtagadiya@gmail.com)** or book a call on **[Topmate](https://topmate.io/mitesh_tagadiya)**.
+> 💼 **Open to freelance & contract work - React / Next.js / AI & LLM products.** &nbsp; 📬 Reach out at **[miteshtagadiya@gmail.com](mailto:miteshtagadiya@gmail.com)** or book a call on **[Topmate](https://topmate.io/mitesh_tagadiya)**.
 
 <p align="center">
   <a href="mailto:miteshtagadiya@gmail.com">
@@ -48,26 +50,29 @@ I'm an **AI-first Frontend Engineer** based in **India 🇮🇳** with 8+ years 
 
 ### 🧑‍💻 About Me
 
-- 🤖 **AI-first Frontend Engineer** — I build LLM-powered products and integrate OpenAI, Claude, and open-source models into real apps
-- ⚛️ **Frontend specialist** — React, Next.js, TypeScript, TailwindCSS, with solid Node.js on the backend
-- 🧩 **Full delivery** — from product discovery and UI/UX to shipping, monitoring, and iteration
-- 🌍 **Remote-friendly** — working with startups and teams across the US, EU, UK, Jordan, South Korea, India and across the Globe.
+- 🤖 **AI-first Frontend Engineer** - I build LLM-powered / AI-driven products and integrate OpenAI, Claude, and open-source models into real apps
+- 🧠 **Prompt engineering & model evolution** - design prompts, evaluate outputs, iterate training/eval loops, and improve AI quality over time
+- ⚛️ **Frontend specialist** - React, Next.js, TypeScript, TailwindCSS, with solid Node.js on the backend
+- 🧩 **Full delivery** - from product discovery and UI/UX to shipping, monitoring, and iteration
+- 🌍 **Remote-friendly** - working with startups and teams across the US, EU, UK, Jordan, South Korea, India and across the Globe.
 - 🔭 Portfolio: **[miteshtagadiya.js.org](https://miteshtagadiya.js.org)**
 - 📫 Email: **miteshtagadiya@gmail.com**
 - ⚡ Fun fact: **I use tabs over spaces**
 
 ---
 
-### 💼 Freelance Services — What I Can Build for You
+### 💼 Freelance Services - What I Can Build for You
 
 If you're a **founder, agency, or product team** looking to ship fast, here's where I can help:
 
-- 🚀 **AI-powered web apps** — chatbots, RAG over your docs/data, AI agents, copilots, semantic search
-- 🧱 **Next.js / React products** — marketing sites, SaaS dashboards, admin panels, customer portals
-- 🔌 **LLM integrations** — OpenAI, Anthropic Claude, Vercel AI SDK, LangChain, pgvector, streaming UIs
-- 🎨 **UI/UX implementation** — pixel-perfect Figma → production, design systems, accessibility
-- ⚙️ **Performance & refactoring** — Core Web Vitals, SSR/ISR, bundle optimization, legacy React upgrades
-- 🔁 **AI-assisted team enablement** — setting up Cursor, Copilot, and LLM workflows for dev teams
+- 🚀 **AI-driven products** - chatbots, copilots, agents, AI features inside SaaS, end-to-end AI UX
+- 🔌 **AI / LLM integration** - OpenAI, Anthropic Claude, Vercel AI SDK, LangChain, pgvector, streaming UIs, tool-calling
+- 🧪 **AI training, evaluation & output quality** - eval harnesses, regression checks, prompt/version iteration, improving model outputs in production
+- 🧬 **Prompt engineering & model evolution** - system prompts, few-shot / structured outputs, guardrails, feedback loops that make models better over time
+- 🧱 **Next.js / React products** - marketing sites, SaaS dashboards, admin panels, customer portals
+- 🎨 **UI/UX implementation** - pixel-perfect Figma → production, design systems, accessibility
+- ⚙️ **Performance & refactoring** - Core Web Vitals, SSR/ISR, bundle optimization, legacy React upgrades
+- 🔁 **AI-assisted team enablement** - setting up Cursor, Copilot, and LLM workflows for dev teams
 
 📩 **Let's talk** → [miteshtagadiya@gmail.com](mailto:miteshtagadiya@gmail.com) &nbsp;|&nbsp; 🗓️ **Book a slot** → [Topmate](https://topmate.io/mitesh_tagadiya) &nbsp;|&nbsp; 💬 **DM me** → [LinkedIn](https://www.linkedin.com/in/mitesh-tagadiya-140420108/)
 
@@ -98,7 +103,7 @@ If you're a **founder, agency, or product team** looking to ship fast, here's wh
 
 ---
 
-### 🤖 AI & LLM Tooling
+### 🤖 AI, LLMs & Model Quality
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -107,8 +112,21 @@ If you're a **founder, agency, or product team** looking to ship fast, here's wh
 </p>
 
 <p align="center">
-  <strong>OpenAI · Anthropic Claude · Vercel AI SDK · Cursor · GitHub Copilot</strong>
+  <strong>OpenAI · Anthropic Claude · Vercel AI SDK · LangChain · Hugging Face · Cursor · GitHub Copilot</strong>
 </p>
+
+**What I do with AI**
+
+| Area | Focus |
+| --- | --- |
+| **AI / LLM integration** | Wire models into products - APIs, streaming chat, tool-calling, RAG, agents |
+| **AI-driven products** | Ship user-facing AI features: copilots, assistants, search, automation |
+| **Prompt engineering** | System prompts, structured outputs, few-shot patterns, guardrails |
+| **AI training & evaluation** | Eval sets, scoring rubrics, offline/online evals, regression suites |
+| **Model evolution** | Iterate prompts, fine-tune / adapt workflows, compare model versions |
+| **Improving AI outputs** | Reduce hallucinations, raise accuracy, tighten latency/cost, feedback loops |
+
+---
 
 ### 🛠️ Languages & Tools
 
@@ -140,9 +158,11 @@ If you're a **founder, agency, or product team** looking to ship fast, here's wh
 
 ### 📊 GitHub Stats
 
+<!-- Official github-readme-stats.vercel.app often returns 503 DEPLOYMENT_PAUSED. Using community mirror. -->
+
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats" title="Go to Source">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api?username=miteshtagadiya&show_icons=true&theme=react&hide_border=true&count_private=true" alt="Mitesh's GitHub stats" />
+    <img width="48%" src="https://ghrs.vercel.app/api?username=miteshtagadiya&show_icons=true&theme=react&hide_border=true&count_private=true" alt="Mitesh's GitHub stats" />
   </a>
   <a href="https://git.io/streak-stats" title="Go to Source">
     <img width="48%" src="https://streak-stats.demolab.com?user=miteshtagadiya&theme=react&hide_border=true" alt="Mitesh's streak stats" />
@@ -151,13 +171,7 @@ If you're a **founder, agency, or product team** looking to ship fast, here's wh
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats" title="Go to Source">
-    <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=miteshtagadiya&langs_count=8&layout=compact&theme=react&hide_border=true" alt="Top Languages" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Ashutosh00710/github-readme-activity-graph" title="Go to Source">
-    <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=miteshtagadiya&theme=react-dark&hide_border=true" alt="Mitesh's contribution graph" />
+    <img width="60%" src="https://ghrs.vercel.app/api/top-langs/?username=miteshtagadiya&langs_count=8&layout=compact&theme=react&hide_border=true" alt="Top Languages" />
   </a>
 </p>
 
@@ -167,9 +181,9 @@ If you're a **founder, agency, or product team** looking to ship fast, here's wh
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/miteshtagadiya/miteshtagadiya/blob/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/miteshtagadiya/miteshtagadiya/blob/output/github-contribution-grid-snake.svg" />
-    <img src="https://github.com/miteshtagadiya/miteshtagadiya/blob/output/github-contribution-grid-snake.svg" alt="github-snake" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/miteshtagadiya/miteshtagadiya/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/miteshtagadiya/miteshtagadiya/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/miteshtagadiya/miteshtagadiya/output/github-contribution-grid-snake.svg" alt="github-snake" />
   </picture>
 </p>
 
@@ -183,7 +197,7 @@ If you're a **founder, agency, or product team** looking to ship fast, here's wh
 
 <p align="center">
   I'm available for <strong>freelance, contract, and part-time</strong> engagements. <br/>
-  Whether it's a <em>Next.js MVP</em>, an <em>LLM-powered feature</em>, or an <em>end-to-end product build</em>, let's ship it.
+  Whether it's a <em>Next.js MVP</em>, <em>AI/LLM integration</em>, <em>prompt engineering & eval</em>, or an <em>AI-driven product</em>, let's ship it.
 </p>
 
 <p align="center">
@@ -219,5 +233,5 @@ If you're a **founder, agency, or product team** looking to ship fast, here's wh
 </p>
 
 <p align="center">
-  ⭐️ From <a href="https://github.com/miteshtagadiya">Mitesh Tagadiya</a> — AI-first Frontend Engineer · Freelance React & Next.js Developer · India 🇮🇳
+  ⭐️ From <a href="https://github.com/miteshtagadiya">Mitesh Tagadiya</a> - AI-first Frontend Engineer · LLM Integration · Prompt Engineering · AI-driven Products · India 🇮🇳
 </p>
